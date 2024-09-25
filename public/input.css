@@ -18,3 +18,42 @@
     border-radius: 5px;
     background: #a91d54;
 }
+
+.text-stroke {
+    color: white;
+    -webkit-text-stroke: 5px black;
+    text-stroke: 5px black;
+}
+
+.shimmer-effect {
+    -webkit-mask: linear-gradient(120deg, #fff 35%, #a91d5592, #a91d54 45%) right/250% 100%;
+    animation: shimmer1 2.5s infinite;
+}
+
+@keyframes shimmer1 {
+    100% {
+        -webkit-mask-position: left;
+    }
+}
+
+.shimmer-effect1 {
+    -webkit-mask: linear-gradient(120deg, #fff 35%, #a91d5592, #a91d54 45%) right/250% 100%;
+    animation: shimmer2 2.5s infinite;
+}
+
+@keyframes shimmer2 {
+    100% {
+        -webkit-mask-position: left;
+    }
+}
+
+.shimmer-effect2 {
+    -webkit-mask: linear-gradient(120deg, #FFFFFFFF 35%, #a91d5592, #FFFFFFFF 45%) right/250% 100%;
+    animation: shimmer3 2.5s infinite;
+}
+
+@keyframes shimmer3 {
+    100% {
+        -webkit-mask-position: left;
+    }
+}
