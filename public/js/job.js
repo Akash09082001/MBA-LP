@@ -94,7 +94,7 @@ function showData(jobData) {
         <div class="bg-white p-4 rounded-lg flex flex-col items-center w-40 md:w-full">
             <img src=${jobData.image} alt="Arti Shrotriya" class="w-20 h-20 rounded-full mb-2">
             <h3 class="font-semibold text-[#a91d54]">${jobData.name}</h3>
-            <p class="text-sm">${jobData.company}</p>
+            <p class="text-sm text-center">${jobData.company}</p>
         </div>                    
     `;
   return listCard;

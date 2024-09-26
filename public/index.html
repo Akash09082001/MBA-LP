@@ -36,37 +36,35 @@
             <nav class="hidden lg:flex flex-1 justify-end items-center">
                 <ul class="flex w-fit gap-2">
                     <li class="flex w-fit">
-                        <a href="/business-school/admission/"
-                            class="flex w-fit text-sm px-4 py-2 hover:text-[#a91d54] transition-all">
+                        <a href="#About" class="flex w-fit text-sm px-4 py-2 hover:text-[#a91d54] transition-all">
                             <span>About</span>
                         </a>
                     </li>
                     <li class="flex w-fit">
-                        <a href="/business-school/placement/"
-                            class="flex w-fit text-sm px-4 py-2 hover:text-[#a91d54] transition-all">
+                        <a href="#Highlights" class="flex w-fit text-sm px-4 py-2 hover:text-[#a91d54] transition-all">
                             <span>Highlights</span>
                         </a>
                     </li>
                     <li class="flex w-fit">
-                        <a href="/mba-course/" class="flex w-fit text-sm px-4 py-2 hover:text-[#a91d54] transition-all">
+                        <a href="#Course Structure"
+                            class="flex w-fit text-sm px-4 py-2 hover:text-[#a91d54] transition-all">
                             <span>Course Structure</span>
                         </a>
                     </li>
                     <li class="flex w-fit">
-                        <a href="/business-school/incubator/"
-                            class="flex w-fit text-sm px-4 py-2 hover:text-[#a91d54] transition-all">
+                        <a href="#Placement" class="flex w-fit text-sm px-4 py-2 hover:text-[#a91d54] transition-all">
                             <span>Placements</span>
                         </a>
                     </li>
                     <li class="flex w-fit">
                         <button onclick="openModal()"
-                            class="flex w-fit text-sm px-4 py-2 bg-[#a91d54] rounded-full text-white transition-all">
+                            class="flex w-fit text-sm px-4 py-2 bg-[#a91d54] rounded-md text-white transition-all">
                             <span>Enquire Now</span>
                         </button>
                     </li>
                     <li class="flex w-fit">
                         <button onclick="openModal()"
-                            class="flex w-fit text-sm px-4 py-2 bg-[#a91d54] rounded-full text-white transition-all">
+                            class="flex w-fit text-sm px-4 py-2 bg-[#a91d54] rounded-md text-white transition-all">
                             <span>Apply Now</span>
                         </button>
                     </li>
@@ -104,25 +102,24 @@
                     </div>
                     <ul class="flex flex-col h-[calc(100%-50px)] overflow-y-scroll w-full gap-2 p-4">
                         <li class="flex w-full">
-                            <a href="/business-school/admission/"
-                                class="flex w-full text-sm px-4 py-2 hover:text-[#a91d54] transition-all">
+                            <a href="#About" class="flex w-full text-sm px-4 py-2 hover:text-[#a91d54] transition-all">
                                 <span>About</span>
                             </a>
                         </li>
                         <li class="flex w-full">
-                            <a href="/business-school/placement/"
+                            <a href="#Highlights"
                                 class="flex w-full text-sm px-4 py-2 hover:text-[#a91d54] transition-all">
                                 <span>Highlights</span>
                             </a>
                         </li>
                         <li class="flex w-full">
-                            <a href="/business-school/program/"
+                            <a href="#Course Structure"
                                 class="flex w-full text-sm px-4 py-2 hover:text-[#a91d54] transition-all">
                                 <span>Course Structure</span>
                             </a>
                         </li>
                         <li class="flex w-full">
-                            <a href="/business-school/incubator/"
+                            <a href="#Placement"
                                 class="flex w-full text-sm px-4 py-2 hover:text-[#a91d54] transition-all">
                                 <span>Placements</span>
                             </a>
@@ -134,9 +131,9 @@
                             </button>
                         </li>
                         <li class="flex w-full">
-                            <button onclick="openModal()"
+                            <button onclick="applyNow()"
                                 class="flex w-full text-sm px-4 py-2 bg-[#a91d54] rounded-md text-white transition-all">
-                                <span>Enquire Now</span>
+                                <span>Apply Now</span>
                             </button>
                         </li>
                     </ul>
@@ -241,7 +238,7 @@
                                         </li>
                                     </ul>
                                     <div class="flex w-full">
-                                        <button
+                                        <button onclick="openModal()"
                                             class="bg-[#a91d54] rounded-lg text-white px-5 py-2 w-full md:w-fit text-center items-center justify-center">Download
                                             Brochure
                                         </button>
@@ -367,7 +364,7 @@
                 </div>
             </section>
 
-            <section class="flex w-full">
+            <section id="Highlights" class="flex w-full">
                 <div
                     class="flex flex-col gap-4 md:gap-8 lg:gap-12 w-full max-w-7xl mx-auto py-4 px-4 md:py-6 lg:py-8 xl:py-10">
                     <div class="flex flex-col gap-2 md:gap-3 w-full justify-center items-center">
@@ -388,7 +385,7 @@
                                         2-week NGO internship.
                                     </p>
                                 </div>
-                                <button
+                                <a href="#Placement"
                                     class="inline-flex gap-2 bg-[#a91d54] text-white rounded-lg px-5 py-2 w-full md:w-fit text-center items-center justify-center">
                                     Know More
 
@@ -397,7 +394,7 @@
                                         <path stroke-linecap="round" stroke-linejoin="round"
                                             d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
                                     </svg>
-                                </button>
+                                </a>
                             </div>
                             <div
                                 class="flex flex-col gap-4 w-80 rounded-lg transition-all border border-gray-200 hover:border-[#a91d54] justify-between shadow-md p-6">
@@ -421,7 +418,7 @@
                                         </ul>
                                     </div>
                                 </div>
-                                <button
+                                <a href="#Placement"
                                     class="inline-flex gap-2 bg-[#a91d54] rounded-lg text-white px-5 py-2 w-full md:w-fit text-center items-center justify-center">
                                     Know More
 
@@ -430,7 +427,7 @@
                                         <path stroke-linecap="round" stroke-linejoin="round"
                                             d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
                                     </svg>
-                                </button>
+                                </a>
                             </div>
                             <div
                                 class="flex flex-col gap-4 w-80 rounded-lg transition-all border border-gray-200 hover:border-[#a91d54] justify-between shadow-md p-6">
@@ -447,7 +444,7 @@
                                         promising startups.
                                     </p>
                                 </div>
-                                <button
+                                <a href="#Incubator"
                                     class="inline-flex gap-2 bg-[#a91d54] rounded-lg text-white px-5 py-2 w-full md:w-fit text-center items-center justify-center">
                                     Know More
 
@@ -456,7 +453,7 @@
                                         <path stroke-linecap="round" stroke-linejoin="round"
                                             d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
                                     </svg>
-                                </button>
+                                </a>
                             </div>
                             <div
                                 class="flex flex-col gap-4 w-80 rounded-lg transition-all border border-gray-200 hover:border-[#a91d54] justify-between shadow-md p-6">
@@ -495,7 +492,7 @@
                                         mandatory or optional.
                                     </p>
                                 </div>
-                                <button
+                                <a href="#GIP"
                                     class="inline-flex gap-2 bg-[#a91d54] rounded-lg text-white px-5 py-2 w-full md:w-fit text-center items-center justify-center">
                                     Know More
 
@@ -504,7 +501,7 @@
                                         <path stroke-linecap="round" stroke-linejoin="round"
                                             d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
                                     </svg>
-                                </button>
+                                </a>
                             </div>
                             <div
                                 class="flex flex-col gap-4 w-80 rounded-lg transition-all border border-gray-200 hover:border-[#a91d54] justify-between shadow-md p-6">
@@ -522,7 +519,7 @@
                                         Retail Management & E-Commerce.
                                     </p>
                                 </div>
-                                <button
+                                <a href="#Specializations"
                                     class="inline-flex gap-2 bg-[#a91d54] rounded-lg text-white px-5 py-2 w-full md:w-fit text-center items-center justify-center">
                                     Know More
 
@@ -531,7 +528,7 @@
                                         <path stroke-linecap="round" stroke-linejoin="round"
                                             d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
                                     </svg>
-                                </button>
+                                </a>
                             </div>
                             <div
                                 class="flex flex-col gap-4 w-80 rounded-lg transition-all border border-gray-200 hover:border-[#a91d54] justify-between shadow-md p-6">
@@ -562,8 +559,7 @@
                 </div>
             </section>
 
-
-            <section class="flex w-full">
+            <section id="About" class="flex w-full">
                 <div
                     class="grid grid-cols-1 md:grid-cols-2 gap-4 w-full max-w-7xl mx-auto py-4 px-4 md:py-6 lg:py-8 xl:py-10">
                     <div class="flex w-full">
@@ -573,13 +569,13 @@
                             <div
                                 class="w-32 md:w-40 flex flex-col bottom-0 right-0 rounded-lg p-2 md:p-4 z-10 absolute bg-[#a91d54] text-white">
                                 <span class="text-xs md:text-sm">Strong Alumni Network of 500+ CXOs</span>
-                                <div class="justify-end w-full flex">
+                                <a href="#Alumni" class="justify-end w-full flex">
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                                         stroke-width="1.5" stroke="currentColor" class="size-5 md:size-6">
                                         <path stroke-linecap="round" stroke-linejoin="round"
                                             d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
                                     </svg>
-                                </div>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -610,7 +606,7 @@
                 </div>
             </section>
 
-            <section class="flex w-full bg-gradient-to-r from-[#f0f6f6] to-[#feefdf]">
+            <section id="#Specializations" class="flex w-full bg-gradient-to-r from-[#f0f6f6] to-[#feefdf]">
                 <div
                     class="flex flex-col gap-4 md:gap-8 lg:gap-12 w-full max-w-7xl mx-auto py-4 px-4 md:py-6 lg:py-8 xl:py-10">
                     <div class="flex flex-col gap-2 md:gap-3 w-full justify-center items-center">
@@ -697,7 +693,7 @@
                                     </span>
                                 </li>
                             </ul>
-                            <a
+                            <a href="#New-Age-Specializations"
                                 class="bg-[#a91d54] inline-flex gap-2 rounded-lg text-white px-5 py-2 w-fit text-center items-center justify-center">
                                 Know More
                                 <span>
@@ -787,7 +783,7 @@
                                     </span>
                                 </li>
                             </ul>
-                            <a
+                            <a href="#Mainstream Specializations"
                                 class="bg-[#a91d54] inline-flex gap-2 rounded-lg text-white px-5 py-2 w-fit text-center items-center justify-center">
                                 Know More
                                 <span>
@@ -1405,7 +1401,7 @@
                 </div>
             </section>
 
-            <section class="flex w-full ">
+            <section id="#Incubator" class="flex w-full ">
                 <div
                     class="flex flex-col gap-4 md:gap-8 lg:gap-12 w-full max-w-7xl mx-auto py-4 px-4 md:py-6 lg:py-8 xl:py-10">
                     <div class="flex flex-col gap-2 md:gap-3 w-full justify-center items-center">
@@ -1532,7 +1528,7 @@
                 </div>
             </section>
 
-            <section class="flex w-full ">
+            <section id="#GIP" class="flex w-full ">
                 <div
                     class="flex flex-col gap-4 md:gap-8 lg:gap-12 w-full max-w-7xl mx-auto py-4 px-4 md:py-6 lg:py-8 xl:py-10">
                     <div class="flex flex-col gap-2 md:gap-3 w-full justify-center items-center">
@@ -1988,7 +1984,7 @@
                 </div>
             </section>
 
-            <section class="flex w-full bg-[#feefdf]">
+            <section id="Course Structure" class="flex w-full bg-[#feefdf]">
                 <div
                     class="flex flex-col gap-4 md:gap-8 lg:gap-12 w-full max-w-7xl mx-auto py-4 px-4 md:py-6 lg:py-8 xl:py-10">
                     <div class="flex flex-col gap-2 md:gap-3 w-full justify-center items-center">
@@ -2122,7 +2118,7 @@
                         </table>
                     </div>
                     <div class="flex w-full justify-center">
-                        <button
+                        <button onclick="openModal()"
                             class="bg-[#a91d54] rounded-lg text-white px-5 py-2 w-full md:w-fit text-center items-center justify-center">Enquire
                             Now</button>
                     </div>
@@ -2163,11 +2159,9 @@
                             </p>
                         </div>
                         <div class="flex w-full">
-                            <button
+                            <button onclick="openModal()"
                                 class="bg-[#ff9601] flex items-center justify-center rounded-full text-white px-4 py-2 gap-2 transition-all">
-                                <a href="">
-                                    Download Brochure
-                                </a>
+                                Download Brochure
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                                     stroke-width="1.5" stroke="currentColor" class="size-4">
                                     <path stroke-linecap="round" stroke-linejoin="round"
@@ -2180,10 +2174,88 @@
                 </div>
             </section>
 
+            <section id="Placement" class="flex w-full bg-gradient-to-r from-[#f0f6f6] to-[#feefdf]">
+                <div
+                    class="flex flex-col gap-4 md:gap-8 lg:gap-12 w-full max-w-7xl mx-auto py-4 px-4 md:py-6 lg:py-8 xl:py-10">
+                    <div class="flex flex-col gap-2 md:gap-3 w-full justify-center items-center">
+                        <span class="font-Bebas-Neue font-semibold text-2xl md:text-3xl lg:text-4xl">COMPREHENSIVE JOB
+                            PLACEMENT PROGRAM
+                        </span>
+                        <p class="text-sm md:text-base text-center">
+                            With a 34-year legacy, ITM Business School combines robust alumni networking and extensive
+                            industry engagement to ensure every student benefits from exceptional placement
+                            opportunities. This powerful synergy supports students throughout their academic journey,
+                            providing them with valuable connections and insights into the professional world. Annually,
+                            over 400+ companies actively recruit from our campus, seeking the talent and skills honed
+                            through our rigorous programs and comprehensive career development initiatives.
+                        </p>
+                    </div>
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full">
+                        <div class="flex lg:col-span-2 overflow-x-scroll md:overflow-x-hidden pb-3 w-full card-scroll">
+                            <div class="flex w-fit md:w-full md:flex-col justify-start gap-4">
+                                <div
+                                    class="flex flex-col gap-2 w-80 md:w-full p-4 lg:p-6 bg-white rounded-lg shadow-md">
+                                    <span class="text-[#a91d54] font-bold text-lg md:text-xl">𝒊Connect
+                                        Internships</span>
+                                    <p class="text-xs md:text-sm lg:text-base">
+                                        Every student at ITM Business School undergoes a rigorous experiential learning
+                                        journey, including a mandatory 5-month internship, a 2-week NGO internship, and
+                                        a 3-month Capstone Project. Additionally, they immerse themselves in 10 live
+                                        projects and case studies, gaining invaluable hands-on experience that is
+                                        pivotal for their career readiness. This real-world exposure and extensive
+                                        industry networking are critical during final placements, significantly
+                                        enhancing their employability and practical skills.
+                                    </p>
+                                    <a href="#"
+                                        class="rounded-lg text-[#a91d54] w-fit text-center items-center justify-center">Enquire
+                                        Now</a>
+                                </div>
+                                <div
+                                    class="flex flex-col gap-2 w-80 md:w-full p-4 lg:p-6 bg-white rounded-lg shadow-md">
+                                    <span class="text-[#a91d54] font-bold text-lg md:text-xl">Extensive Personal and
+                                        Professional
+                                        Development Training</span>
+                                    <p class="text-xs md:text-sm lg:text-base">
+                                        Students immerse themselves in over 300 hours of training, equipping them for
+                                        real-world challenges in presentation skills, corporate communication, public
+                                        speaking, technical proficiency in MS Office, and mastering personal interview
+                                        techniques. This extensive training ensures they are fully prepared to excel in
+                                        professional environments.
+                                    </p>
+                                    <a href="#"
+                                        class="rounded-lg text-[#a91d54] w-fit text-center items-center justify-center">Enquire
+                                        Now</a>
+                                </div>
+                                <div
+                                    class="flex flex-col gap-2 w-80 md:w-full p-4 lg:p-6 bg-white rounded-lg shadow-md">
+                                    <span class="text-[#a91d54] font-bold">35+ Professional
+                                        Certifications</span>
+                                    <p class="text-xs md:text-sm lg:text-base">
+                                        ITM Business School has included advanced professional certifications in all
+                                        programs to accompany degrees. These certifications are recognized by industry
+                                        and provide practical knowledge that helps students secure jobs more easily.
+                                    </p>
+                                    <a href="#"
+                                        class="rounded-lg text-[#a91d54] w-fit text-center items-center justify-center">Enquire
+                                        Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex w-full">
+                            <div class="flex w-full aspect-square relative">
+                                <img src="https://cdn.itm.edu/assets/young_girl_6acd01ad64.webp" alt=""
+                                    class="w-full object-contain">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
             <section class="flex w-full h-auto bg-[#f8f8f8]">
                 <div class="flex flex-col w-full p-5 md:py-8 lg:py-10 xl:py-14 max-w-7xl mx-auto">
 
-                    <h3 class="text-3xl font-Bebas-Neue text-[#a91d54] text-center mb-6">NEW-AGE SPECIALIZATIONS</h3>
+                    <h3 id="New-Age-Specializations" class="text-3xl font-Bebas-Neue text-[#a91d54] text-center mb-6">
+                        NEW-AGE SPECIALIZATIONS</h3>
 
                     <div id="accordion">
                         <div class="accordion-item mb-3">
@@ -2383,7 +2455,7 @@
                                 </p>
 
                                 <div class="flex items-center justify-center">
-                                    <a href="../mba-in-financial-markets/"
+                                    <button onclick="openModal()"
                                         class="flex items-center justify-center gap-2 mt-4 bg-[#a91d54] text-white px-5 py-3 rounded-lg">
                                         Download Brochure
                                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
@@ -2392,7 +2464,7 @@
                                                 d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3" />
                                         </svg>
 
-                                    </a>
+                                    </button>
                                 </div>
                             </div>
                         </div>
@@ -2626,7 +2698,7 @@
                                 </p>
 
                                 <div class="flex items-center justify-center">
-                                    <a href="../mba-in-fintech/"
+                                    <button onclick="openModal()"
                                         class="flex items-center justify-center gap-2 mt-4 bg-[#a91d54] text-white px-5 py-3 rounded-lg">
                                         Download Brochure
                                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
@@ -2635,7 +2707,7 @@
                                                 d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3" />
                                         </svg>
 
-                                    </a>
+                                    </button>
                                 </div>
                             </div>
                         </div>
@@ -2906,7 +2978,7 @@
                                 </p>
 
                                 <div class="flex items-center justify-center">
-                                    <a href="../mba-in-digital-marketing-and-transformation/"
+                                    <button onclick="openModal()"
                                         class="flex items-center justify-center gap-2 mt-4 bg-[#a91d54] text-white px-5 py-3 rounded-lg">
                                         Download Brochure
                                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
@@ -2915,7 +2987,7 @@
                                                 d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3" />
                                         </svg>
 
-                                    </a>
+                                    </button>
                                 </div>
                             </div>
                         </div>
@@ -3144,7 +3216,7 @@
                                 </p>
 
                                 <div class="flex items-center justify-center">
-                                    <a href="../mba-in-business-analytics/"
+                                    <button onclick="openModal()"
                                         class="flex items-center justify-center gap-2 mt-4 bg-[#a91d54] text-white px-5 py-3 rounded-lg">
                                         Download Brochure
                                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
@@ -3153,7 +3225,7 @@
                                                 d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3" />
                                         </svg>
 
-                                    </a>
+                                    </button>
                                 </div>
                             </div>
                         </div>
@@ -3369,7 +3441,7 @@
                                 </p>
 
                                 <div class="flex items-center justify-center">
-                                    <a href="../mba-in-retail-management/"
+                                    <button onclick="openModal()"
                                         class="flex items-center justify-center gap-2 mt-4 bg-[#a91d54] text-white px-5 py-3 rounded-lg">
                                         Download Brochure
                                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
@@ -3378,13 +3450,14 @@
                                                 d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3" />
                                         </svg>
 
-                                    </a>
+                                    </button>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <h3 class="text-3xl font-Bebas-Neue text-[#a91d54] text-center mb-6">Mainstream Specialisations</h3>
+                    <h3 id="Mainstream Specializations"
+                        class="text-3xl font-Bebas-Neue text-[#a91d54] text-center mb-6">Mainstream Specialisations</h3>
 
                     <div id="accordion">
                         <div class="accordion-item mb-3">
@@ -3553,7 +3626,7 @@
                                 </p>
 
                                 <div class="flex items-center justify-center">
-                                    <a href="../mba-in-marketing/"
+                                    <button onclick="openModal()"
                                         class="flex items-center justify-center gap-2 mt-4 bg-[#a91d54] text-white px-5 py-3 rounded-lg">
                                         Download Brochure
                                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
@@ -3562,7 +3635,7 @@
                                                 d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3" />
                                         </svg>
 
-                                    </a>
+                                    </button>
                                 </div>
                             </div>
                         </div>
@@ -3738,7 +3811,7 @@
                                     Lille, France</p>
 
                                 <div class="flex items-center justify-center">
-                                    <a href="../mba-in-international-business/"
+                                    <button onclick="openModal()"
                                         class="flex items-center justify-center gap-2 mt-4 bg-[#a91d54] text-white px-5 py-3 rounded-lg">
                                         Download Brochure
                                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
@@ -3747,7 +3820,7 @@
                                                 d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3" />
                                         </svg>
 
-                                    </a>
+                                    </button>
                                 </div>
                             </div>
                         </div>
@@ -3977,7 +4050,7 @@
                                 </p>
 
                                 <div class="flex items-center justify-center">
-                                    <a href="../mba-in-human-resource-management/"
+                                    <button onclick="openModal()"
                                         class="flex items-center justify-center gap-2 mt-4 bg-[#a91d54] text-white px-5 py-3 rounded-lg">
                                         Download Brochure
                                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
@@ -3986,7 +4059,7 @@
                                                 d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3" />
                                         </svg>
 
-                                    </a>
+                                    </button>
                                 </div>
                             </div>
                         </div>
@@ -4159,7 +4232,7 @@
                                 </p>
 
                                 <div class="flex items-center justify-center">
-                                    <a href="../mba-in-operations-and-supply-chain-management/"
+                                    <button onclick="openModal()"
                                         class="flex items-center justify-center gap-2 mt-4 bg-[#a91d54] text-white px-5 py-3 rounded-lg">
                                         Download Brochure
                                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
@@ -4168,7 +4241,7 @@
                                                 d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3" />
                                         </svg>
 
-                                    </a>
+                                    </button>
                                 </div>
                             </div>
                         </div>
@@ -4343,7 +4416,7 @@
                                 </p>
 
                                 <div class="flex items-center justify-center">
-                                    <a href="../mba-in-finance/"
+                                    <button onclick="openModal()"
                                         class="flex items-center justify-center gap-2 mt-4 bg-[#a91d54] text-white px-5 py-3 rounded-lg">
                                         Download Brochure
                                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
@@ -4352,7 +4425,7 @@
                                                 d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3" />
                                         </svg>
 
-                                    </a>
+                                    </button>
                                 </div>
                             </div>
                         </div>
@@ -4363,7 +4436,9 @@
             <section class="flex w-full bg-[#333232]">
 
                 <div class="flex flex-col w-full p-5 md:py-8 lg:py-10 xl:py-14 max-w-7xl mx-auto">
-                    <h1 class="text-4xl font-bold text-center mb-4 text-[#ffffff]">GET YOUR DREAM JOB!</h1>
+                    <h1
+                        class="font-Bebas-Neue font-semibold text-2xl md:text-3xl lg:text-4xl text-center mb-4 text-[#ffffff]">
+                        GET YOUR DREAM JOB!</h1>
                     <p class="text-center mb-4 text-[#cbcacb]">We focus on acquiring the best brands and high-demand job
                         profiles,
                         giving our
@@ -4376,12 +4451,7 @@
 
                     <div class="overflow-x-auto flex w-full md:overflow-x-hidden pb-3">
                         <div id="job-data"
-                            class="flex w-fit md:grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 overflow-x-auto">
-                            <div class="bg-white p-4 rounded-lg flex flex-col items-center w-40 md:w-full">
-                                <img src=${jobData.image} alt="Arti Shrotriya" class="w-20 h-20 rounded-full mb-2">
-                                <h3 class="font-semibold text-[#a91d54]">${jobData.name}</h3>
-                                <p class="text-sm">${jobData.company}</p>
-                            </div>
+                            class="flex w-fit md:grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
 
                         </div>
                     </div>
@@ -4884,7 +4954,7 @@
                 </div>
             </section>
 
-            <section class="flex flex-col h-auto w-full">
+            <section id="#Alumni" class="flex flex-col h-auto w-full">
                 <div
                     class="flex w-full flex-col px-4 py-4 gap-4 md:gap-6 lg:gap-8 sm:py-6 md:py-8 lg:py-10 xl:py-14 max-w-7xl mx-auto">
                     <div class="flex flex-col gap-2 items-center justify-center w-full ">
@@ -4903,7 +4973,7 @@
                     </div>
                     <div class="card-scroll flex w-full overflow-x-scroll pb-3">
                         <div class="flex w-fit gap-4">
-                            <div class="flex w-80 flex-col bg-white rounded-md">
+                            <div class="flex w-80 flex-col bg-white rounded-md border border-gray-200">
                                 <div class="flex w-full relative aspect-video">
                                     <lite-youtube videoid="Fy0O5U-mn4E" class="rounded-md" title="Play: Video">
                                         <a class="lite-youtube-fallback"
@@ -4919,7 +4989,7 @@
                                     <span class="font-bold text-sm">Yes Bank</span>
                                 </div>
                             </div>
-                            <div class="flex w-80 flex-col bg-white rounded-md">
+                            <div class="flex w-80 flex-col bg-white rounded-md border border-gray-200">
                                 <div class="flex w-full relative aspect-video">
                                     <lite-youtube videoid="J_a-VT_SrwI" class="rounded-md" title="Play: Video">
                                         <a class="lite-youtube-fallback"
@@ -4934,7 +5004,7 @@
                                     <span class="font-bold text-sm">Sterling</span>
                                 </div>
                             </div>
-                            <div class="flex w-80 flex-col bg-white rounded-md">
+                            <div class="flex w-80 flex-col bg-white rounded-md border border-gray-200">
                                 <div class="flex w-full relative aspect-video">
                                     <lite-youtube videoid="qEzXRIVYoho" class="rounded-md" title="Play: Video">
                                         <a class="lite-youtube-fallback"
@@ -4949,7 +5019,7 @@
                                     <span class="font-bold text-sm">JPMorgan Chase &amp; Co.</span>
                                 </div>
                             </div>
-                            <div class="flex w-80 flex-col bg-white rounded-md">
+                            <div class="flex w-80 flex-col bg-white rounded-md border border-gray-200">
                                 <div class="flex w-full relative aspect-video">
                                     <lite-youtube videoid="WEoYjQratXk" class="rounded-md" title="Play: Video">
                                         <a class="lite-youtube-fallback"
@@ -5087,7 +5157,7 @@
                                 <div class="flex flex-col gap-2">
                                     <span class="font-bold">STEP -1</span>
                                     <p>Go to <a class="text-[#A91D54]"
-                                            href="https://forms.itm.edu/mba">https://forms.itm.edu/mba</a> to
+                                            onclick="applyNow()">https://forms.itm.edu/mba</a> to
                                         fill out the
                                         application form.
                                         Note: Application Fee of INR 1500/-
@@ -5434,7 +5504,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="flex flex-col gap-2 md:gap-4 md:py-4 lg:py-6 xl:py-8 w-full">
+                    <div class="flex flex-col gap-2 md:gap-4 w-full">
                         <div class="flex w-full justify-start">
                             <span class="font-Bebas-Neue font-semibold text-2xl md:text-3xl lg:text-4xl">
                                 About ITM Business School
@@ -5493,9 +5563,141 @@
             </footer>
 
         </main>
+        <section id="modal"
+            class="hidden w-full h-screen bg-black bg-opacity-50 top-0 right-0 left-0 z-30 items-center justify-center fixed">
+            <div class="flex max-w-7xl relative w-full py-5 md:py-10  mx-auto my-auto">
 
+                <div
+                    class="flex w-full relative h-fit md:max-w-sm p-4 bg-white mx-auto  items-center justify-center flex-col bg-[#a91d54]-gray rounded-md">
+                    <div class="flex w-full py-2">
+                        <h2 class="flex w-full text-center font-bold text-xl items-center justify-center">
+                            Enquire Now</h2>
+                    </div>
+                    <div class="flex w-fit absolute top-0 right-0">
+                        <button onclick="closeModal()" class="px-2 py-2 rounded-md bg-white flex">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                class="w-6 h-6 text-[#a91d54]-red ">
+                                <path fill-rule="evenodd"
+                                    d="M5.47 5.47a.75.75 0 011.06 0L12 10.94l5.47-5.47a.75.75 0 111.06 1.06L13.06 12l5.47 5.47a.75.75 0 11-1.06 1.06L12 13.06l-5.47 5.47a.75.75 0 01-1.06-1.06L10.94 12 5.47 6.53a.75.75 0 010-1.06z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="flex w-full h-fit items-center justify-center">
+                        <!--<div class="flex w-full h-[440px] py-2 px-2  items-center justify-center">
+                    <div class="npf_wgts w-full" data-height="440px" data-w="6840a00176cf0244be6ff1b0825a05fa">
+                    </div>
+                </div>-->
+                        <form id="form1" autocomplete="off" class="flex flex-col rounded-md gap-4 py-2 px-2 w-full">
+
+                            <div
+                                class="flex w-full transition-all group hover:shadow-sm hover:border-yellow-500 flex-col relative border rounded-md">
+                                <input type="text" name="fullname" id="fullname1" autocomplete="false"
+                                    class="flex w-full border text-sm px-3 py-2 rounded-md outline-none border-none focus:outline-none"
+                                    placeholder="Enter Your Full Name *">
+                                <span class="flex absolute -bottom-4 left-0 pl-3" style="font-size: 10px; color:red;"
+                                    id="fullnameError1"></span>
+                            </div>
+
+                            <div
+                                class="flex w-full flex-col relative transition-all group hover:shadow-sm hover:border-yellow-500 border rounded-md">
+                                <input type="email" name="email" id="email1" autocomplete="false"
+                                    class="flex w-full border text-sm px-3 py-2 rounded-md outline-none border-none focus:outline-none"
+                                    placeholder="Enter Your Email *">
+                                <span class="flex absolute -bottom-4 left-0 pl-3" style="font-size: 10px; color:red;"
+                                    id="emailError1"></span>
+                            </div>
+                            <div
+                                class="flex w-full flex-col relative transition-all group hover:shadow-sm hover:border-yellow-500 border rounded-md">
+                                <div class="relative flex w-full rounded-md shadow-sm">
+                                    <div class="flex w-20 items-center">
+                                        <select id="countrySelect1" name="country" autocomplete="country"
+                                            class="flex w-full  text-sm h-9 rounded-md outline-none border-none focus:outline-none">
+                                        </select>
+                                    </div>
+                                    <input type="number" name="phone-number" id="number1" autocomplete="false"
+                                        class="flex w-full border text-sm pl-3 py-2 rounded-md outline-none border-none focus:outline-none"
+                                        placeholder="Enter Your Mobile Number *">
+                                </div>
+                                <span class="flex absolute -bottom-4 left-0 pl-3" style="font-size: 10px; color:red;"
+                                    id="numberError1"></span>
+                            </div>
+                            <div class="grid grid-cols-2 gap-2 w-full">
+                                <div
+                                    class="location flex w-full flex-col relative transition-all group hover:shadow-sm hover:border-yellow-500 border rounded-md">
+                                    <select id="state1" name="state" autocomplete="none"
+                                        class="flex w-full border text-sm h-9 px-3 rounded-md outline-none border-none focus:outline-none">
+                                        <option value="" class="flex w-full h-full text-sm py-2 " disabled selected>
+                                            Select State</option>
+                                    </select>
+                                    <span class="flex absolute -bottom-4 left-0 pl-3"
+                                        style="font-size: 10px; color:red;" id="stateError1"></span>
+                                </div>
+                                <div
+                                    class="location flex w-full flex-col relative transition-all group hover:shadow-sm hover:border-yellow-500 border rounded-md">
+                                    <select id="city1" name="city" disabled autocomplete="none"
+                                        class="flex w-full border text-sm h-9 px-3 rounded-md outline-none border-none focus:outline-none">
+                                        <option value="" class="flex w-full h-full text-sm py-2 " disabled selected>
+                                            Select City</option>
+                                    </select>
+                                    <span class="flex absolute -bottom-4 left-0 pl-3"
+                                        style="font-size: 10px; color:red;" id="cityError1"></span>
+                                </div>
+
+                            </div>
+
+                            <div class="grid grid-cols-2 gap-2 w-full">
+                                <div class="flex w-full items-center justify-center bg-white rounded-md">
+                                    <span type="text" id="genratedCaptcha1" name="genratedCaptcha"
+                                        contenteditable="false" autocomplete="false"
+                                        class="flex h-4/5 my-auto w-full py-2 pl-3 rounded-sm outline-none items-center justify-center border-none focus:outline-none"
+                                        placeholder="Enter Captcha *"
+                                        style="user-select: none; font-size: 18px; color: black;">
+                                    </span>
+                                    <button type="button" id="refreshCaptchaBtn1"
+                                        class="flex h-10 w-10 my-auto rounded-md bg-white items-center justify-center text-yellow-400 font-extrabold">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                            class="w-8 h-8">
+                                            <path fill-rule="evenodd"
+                                                d="M4.755 10.059a7.5 7.5 0 0 1 12.548-3.364l1.903 1.903h-3.183a.75.75 0 1 0 0 1.5h4.992a.75.75 0 0 0 .75-.75V4.356a.75.75 0 0 0-1.5 0v3.18l-1.9-1.9A9 9 0 0 0 3.306 9.67a.75.75 0 1 0 1.45.388Zm15.408 3.352a.75.75 0 0 0-.919.53 7.5 7.5 0 0 1-12.548 3.364l-1.902-1.903h3.183a.75.75 0 0 0 0-1.5H2.984a.75.75 0 0 0-.75.75v4.992a.75.75 0 0 0 1.5 0v-3.18l1.9 1.9a9 9 0 0 0 15.059-4.035.75.75 0 0 0-.53-.918Z"
+                                                clip-rule="evenodd" />
+                                        </svg>
+                                    </button>
+                                </div>
+                                <div
+                                    class="flex relative w-full transition-all bg-white group hover:shadow-sm hover:border-yellow-500 border rounded-md">
+                                    <input type="text" id="captcha1" name="captcha" autocomplete="false"
+                                        class="flex h-4/5 my-auto w-full text-sm py-2 pl-3 rounded-sm outline-none border-none focus:outline-none"
+                                        placeholder="Enter Captcha *">
+                                    <span class="flex absolute -bottom-4 left-0 text-xs text-[#a91d54]-red pl-3"
+                                        style="font-size: 10px; color:red;" id="captchaError1"></span>
+                                </div>
+                            </div>
+
+                            <div class="flex w-full h-fit relative">
+                                <label for="term" class="w-full h-10 flex items-start justify-start">
+                                    <input type="checkbox" checked name="term" id="term1">
+                                    <p class="w-fit h-fit font-bold" style="font-size: 12px;"> &nbsp; By
+                                        submitting this form you
+                                        authorise &
+                                        allow ITM
+                                        to
+                                        connect with you. This will override the registry on DND/NDNC.</p>
+                                </label>
+                                <span class="flex absolute -bottom-4 left-0 pl-3" style="font-size: 10px; color:red;"
+                                    id="termError1"></span>
+                            </div>
+
+                            <div class="flex w-full">
+                                <button type="submit"
+                                    class="flex w-full items-center justify-center rounded-md bg-[#A91D54] hover:bg-black transition-all py-3 text-center text-base text-white ">Submit</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
     </div>
-
 
     <script>
         const faqList = document.getElementById("faqList");
@@ -5503,20 +5705,13 @@
             faqList.innerHTML = faqHTML;
         }
 
-        // Add click functionality to toggle the FAQ accordion
         const accordionButtons = document.querySelectorAll(".accordion-button");
         accordionButtons.forEach((button) => {
             button.addEventListener("click", () => {
                 const content = button.nextElementSibling;
                 const icon = button.querySelector(".accordion-icon");
-
-                // Toggle the visibility of the accordion content
                 content.classList.toggle("hidden");
-
-                // Change the icon depending on the visibility
                 icon.textContent = content.classList.contains("hidden") ? "+" : "-";
-
-                // Change button color based on the visibility of the content
                 button.classList.toggle(
                     "bg-[#a91d54]",
                     !content.classList.contains("hidden")
@@ -5528,14 +5723,15 @@
             });
         });
     </script>
+    <script src="js/user.js"></script>
     <script src="main.js"></script>
-    <<<<<<< HEAD <script src="js/ranking.js">
-        </script>
-        =======
-        <script src="js/job.js"></script>
-        <script src="js/swiper.js"></script>
-        <script src="js/campus.js"></script>
-        >>>>>>> add-refactorUi/Ibran
+    <script src="js/ranking.js"></script>
+    <script src="js/job.js"></script>
+    <script src="js/swiper.js"></script>
+    <script src="js/campus.js"></script>
+    <script src="form-js/data.js"></script>
+    <script src="form-js/data1.js"></script>
+    <script src="form-js/form1.js"></script>
 </body>
 
 </html>
