@@ -74,16 +74,16 @@ const jobData = [
     company: "Pricewaterhouse Coopers India",
     image: "https://cdn.itm.edu/assets/nasrin_e2811f004d.webp",
   },
-  {
-    name: "Shreyansh S.",
-    company: "Pricewaterhouse Coopers India",
-    image: "https://cdn.itm.edu/assets/shreyansh_17951cac69.webp",
-  },
-  {
-    name: "Kshitij N.",
-    company: "Pricewaterhouse Coopers India",
-    image: "https://cdn.itm.edu/assets/kshitij_9b1b563142.webp",
-  },
+  // {
+  //   name: "Shreyansh S.",
+  //   company: "Pricewaterhouse Coopers India",
+  //   image: "https://cdn.itm.edu/assets/shreyansh_17951cac69.webp",
+  // },
+  // {
+  //   name: "Kshitij N.",
+  //   company: "Pricewaterhouse Coopers India",
+  //   image: "https://cdn.itm.edu/assets/kshitij_9b1b563142.webp",
+  // },
 ];
 
 let job = jobData.map(showData).join("");
