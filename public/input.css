@@ -9,6 +9,11 @@
     @apply h-1.5 w-2;
 }
 
+body,
+html {
+    scroll-behavior: smooth;
+}
+
 .card-scroll::-webkit-scrollbar-track {
     background: #8888882e;
     border-radius: 5px;

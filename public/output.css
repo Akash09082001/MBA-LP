@@ -1603,6 +1603,11 @@ video {
   width: 0.5rem;
 }
 
+body,
+html {
+  scroll-behavior: smooth;
+}
+
 .card-scroll::-webkit-scrollbar-track {
   background: #8888882e;
   border-radius: 5px;
@@ -2073,10 +2078,6 @@ input[type=number] {
 
   .xl\:gap-5{
     gap: 1.25rem;
-  }
-
-  .xl\:overflow-x-hidden{
-    overflow-x: hidden;
   }
 
   .xl\:py-10{
