@@ -142,7 +142,22 @@
         </div>
     </header>
 
-    <div class="flex w-full h-[100vh-76px] flex-col overflow-y-auto">
+    <div class="flex relative w-full h-[100vh-76px] flex-col overflow-y-auto">
+
+        <div class="flex md:hidden w-full fixed inset-x-0 bottom-0 bg-white h-fit z-20">
+            <button onclick="openModal()"
+                class="bg-[#a91d54] gap-2 inline-flex text-white px-5 py-2 w-full text-center items-center justify-center shimmer-effect1">Enquire
+                Now
+            </button>
+        </div>
+
+        <a href="#Hero"
+            class="flex h-10 w-10 z-10 bottom-5 right-5 fixed animate-bounce bg-[#a91d54] items-center rounded-full justify-center text-white">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="size-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 10.5 12 3m0 0 7.5 7.5M12 3v18" />
+            </svg>
+        </a>
 
         <main class="flex w-full flex-col h-screen">
 
