@@ -570,10 +570,6 @@ video {
   border-width: 0;
 }
 
-.visible{
-  visibility: visible;
-}
-
 .fixed{
   position: fixed;
 }
@@ -603,6 +599,10 @@ video {
   bottom: 0px;
 }
 
+.bottom-7{
+  bottom: 1.75rem;
+}
+
 .left-0{
   left: 0px;
 }
@@ -611,28 +611,12 @@ video {
   right: 0px;
 }
 
-.top-0{
-  top: 0px;
-}
-
-.bottom-14{
-  bottom: 3.5rem;
-}
-
-.right-7{
-  right: 1.75rem;
-}
-
 .right-5{
   right: 1.25rem;
 }
 
-.bottom-5{
-  bottom: 1.25rem;
-}
-
-.bottom-7{
-  bottom: 1.75rem;
+.top-0{
+  top: 0px;
 }
 
 .z-10{
@@ -645,10 +629,6 @@ video {
 
 .z-30{
   z-index: 30;
-}
-
-.z-40{
-  z-index: 40;
 }
 
 .order-1{
@@ -1116,10 +1096,6 @@ video {
   border-radius: 0.125rem;
 }
 
-.rounded{
-  border-radius: 0.25rem;
-}
-
 .rounded-b-lg{
   border-bottom-right-radius: 0.5rem;
   border-bottom-left-radius: 0.5rem;
@@ -1312,11 +1288,6 @@ video {
   background-color: rgb(234 179 8 / var(--tw-bg-opacity));
 }
 
-.bg-blue-500{
-  --tw-bg-opacity: 1;
-  background-color: rgb(59 130 246 / var(--tw-bg-opacity));
-}
-
 .bg-opacity-50{
   --tw-bg-opacity: 0.5;
 }
@@ -1359,6 +1330,18 @@ video {
 
 .bg-center{
   background-position: center;
+}
+
+.bg-right-bottom{
+  background-position: right bottom;
+}
+
+.bg-\[right_30\%_bottom\]{
+  background-position: right 30% bottom;
+}
+
+.bg-\[right_20\%_bottom\]{
+  background-position: right 20% bottom;
 }
 
 .bg-no-repeat{
@@ -1960,6 +1943,10 @@ input[type=number] {
 
   .md\:bg-\[url\(https\:\/\/cdn\.itm\.edu\/assets\/young_man_7384d2b5ed\.webp\)\]{
     background-image: url(https://cdn.itm.edu/assets/young_man_7384d2b5ed.webp);
+  }
+
+  .md\:bg-\[url\(\'https\:\/\/cdn\.itm\.edu\/assets\/mba_hero_6a64a02a04\.webp\'\)\]{
+    background-image: url('https://cdn.itm.edu/assets/mba_hero_6a64a02a04.webp');
   }
 
   .md\:p-4{
