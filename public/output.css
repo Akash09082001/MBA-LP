@@ -1358,6 +1358,10 @@ video {
   background-position: right 20% bottom;
 }
 
+.bg-\[right_30\%_bottom\]{
+  background-position: right 30% bottom;
+}
+
 .bg-no-repeat{
   background-repeat: no-repeat;
 }
@@ -1984,6 +1988,10 @@ input[type=number] {
 
   .md\:bg-\[url\(https\:\/\/cdn\.itm\.edu\/assets\/young_man_7384d2b5ed\.webp\)\]{
     background-image: url(https://cdn.itm.edu/assets/young_man_7384d2b5ed.webp);
+  }
+
+  .md\:bg-\[url\(\'https\:\/\/cdn\.itm\.edu\/assets\/hero_img_cabd89fbe8\.webp\'\)\]{
+    background-image: url('https://cdn.itm.edu/assets/hero_img_cabd89fbe8.webp');
   }
 
   .md\:p-4{
