@@ -647,6 +647,10 @@ video {
   grid-column: span 3 / span 3;
 }
 
+.col-span-2{
+  grid-column: span 2 / span 2;
+}
+
 .mx-auto{
   margin-left: auto;
   margin-right: auto;
@@ -811,6 +815,14 @@ video {
 
 .h-screen{
   height: 100vh;
+}
+
+.h-\[calc\(100\%-20px\)\]{
+  height: calc(100% - 20px);
+}
+
+.h-\[calc\(100vh-100px\)\]{
+  height: calc(100vh - 100px);
 }
 
 .max-h-14{
@@ -1324,6 +1336,30 @@ video {
   background-size: contain;
 }
 
+.bg-\[length\:auto_50\%\]{
+  background-size: auto 50%;
+}
+
+.bg-\[length\:auto_70\%\]{
+  background-size: auto 70%;
+}
+
+.bg-\[length\:auto_80\%\]{
+  background-size: auto 80%;
+}
+
+.bg-\[length\:auto_90\%\]{
+  background-size: auto 90%;
+}
+
+.bg-\[length\:auto_85\%\]{
+  background-size: auto 85%;
+}
+
+.bg-\[length\:auto_83\%\]{
+  background-size: auto 83%;
+}
+
 .bg-\[right_15\%_center\]{
   background-position: right 15% center;
 }
@@ -1342,6 +1378,10 @@ video {
 
 .bg-\[right_20\%_bottom\]{
   background-position: right 20% bottom;
+}
+
+.bg-\[right_0\%_bottom\]{
+  background-position: right 0% bottom;
 }
 
 .bg-no-repeat{
@@ -1981,6 +2021,11 @@ input[type=number] {
   .md\:py-8{
     padding-top: 2rem;
     padding-bottom: 2rem;
+  }
+
+  .md\:px-4{
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 
   .md\:pb-16{
