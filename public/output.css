@@ -1066,6 +1066,10 @@ video {
   gap: 1.25rem;
 }
 
+.gap-8{
+  gap: 2rem;
+}
+
 .gap-y-10{
   row-gap: 2.5rem;
 }
@@ -1964,6 +1968,10 @@ input[type=number] {
 
   .md\:gap-8{
     gap: 2rem;
+  }
+
+  .md\:gap-10{
+    gap: 2.5rem;
   }
 
   .md\:overflow-x-hidden{
