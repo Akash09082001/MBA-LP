@@ -285,8 +285,8 @@
                                             <input type="text" name="fullname" id="fullname" autocomplete="false"
                                                 class="flex w-full border text-sm px-3 py-2 rounded-md outline-none border-none focus:outline-none"
                                                 placeholder="Enter Your Full Name *">
-                                            <span class="flex absolute -bottom-4 left-0 pl-3"
-                                                style="font-size: 10px; color:red;" id="fullnameError"></span>
+                                            <span class="flex absolute -bottom-4 left-0 pl-3 text-xs text-red-500"
+                                                id="fullnameError"></span>
                                         </div>
 
                                         <div
@@ -294,8 +294,8 @@
                                             <input type="email" name="email" id="email" autocomplete="false"
                                                 class="flex w-full border text-sm px-3 py-2 rounded-md outline-none border-none focus:outline-none"
                                                 placeholder="Enter Your Email *">
-                                            <span class="flex absolute -bottom-4 left-0 pl-3"
-                                                style="font-size: 10px; color:red;" id="emailError"></span>
+                                            <span class="flex absolute -bottom-4 left-0 pl-3 text-xs text-red-500"
+                                                id="emailError"></span>
                                         </div>
                                         <div
                                             class="flex w-full flex-col relative transition-all group hover:shadow-sm hover:border-yellow-500 border rounded-md">
@@ -310,33 +310,38 @@
                                                     class="flex w-full border text-sm pl-3 py-2 rounded-md outline-none border-none focus:outline-none"
                                                     placeholder="Enter Your Mobile Number *">
                                             </div>
-                                            <span class="flex absolute -bottom-4 left-0 pl-3"
-                                                style="font-size: 10px; color:red;" id="numberError"></span>
+                                            <span class="flex absolute -bottom-4 left-0 pl-3 text-xs text-red-500"
+                                                id="numberError"></span>
                                         </div>
                                         <div class="grid grid-cols-2 gap-2 w-full">
                                             <div
-                                                class="location flex w-full flex-col relative transition-all group hover:shadow-sm hover:border-yellow-500 border rounded-md">
-                                                <select id="state" name="state" autocomplete="none"
-                                                    class="flex w-full border text-sm h-9 px-3 rounded-md outline-none border-none focus:outline-none">
-                                                    <option value="" class="flex w-full h-full text-sm py-2 " disabled
-                                                        selected>
-                                                        Select State</option>
-                                                </select>
-                                                <span class="flex absolute -bottom-4 left-0 pl-3"
-                                                    style="font-size: 10px; color:red;" id="stateError"></span>
+                                                class="location relative flex w-full flex-col bg-white transition-all group hover:shadow-sm hover:border-glory-blue-500 border rounded-md">
+                                                <input type="text" name="state" id="state"
+                                                    class="flex w-full border text-sm px-3 py-2 rounded-md outline-none border-none focus:outline-none"
+                                                    placeholder="Search State">
+                                                <div
+                                                    class="flex w-full rounded-md absolute bg-white h-auto z-10 left-0 right-0 max-h-40 shadow-md top-full overflow-y-auto card-scroll">
+                                                    <ul id="stateResults"
+                                                        class="grid grid-cols-1 divide-y flex-col capitalize w-full h-fit ">
+                                                    </ul>
+                                                </div>
+                                                <span class="flex absolute -bottom-4 left-0 pl-3 text-xs text-red-500"
+                                                    id="stateError"></span>
                                             </div>
                                             <div
-                                                class="location flex w-full flex-col relative transition-all group hover:shadow-sm hover:border-yellow-500 border rounded-md">
-                                                <select id="city" name="city" disabled autocomplete="none"
-                                                    class="flex w-full border text-sm h-9 px-3 rounded-md outline-none border-none focus:outline-none">
-                                                    <option value="" class="flex w-full h-full text-sm py-2 " disabled
-                                                        selected>
-                                                        Select City</option>
-                                                </select>
-                                                <span class="flex absolute -bottom-4 left-0 pl-3"
-                                                    style="font-size: 10px; color:red;" id="cityError"></span>
+                                                class="location relative flex w-full flex-col bg-white transition-all group hover:shadow-sm hover:border-glory-blue-500 border rounded-md">
+                                                <input type="text" name="city" id="city"
+                                                    class="flex w-full border text-sm px-3 py-2 rounded-md outline-none border-none focus:outline-none"
+                                                    placeholder="Search City">
+                                                <div
+                                                    class="flex w-full rounded-md absolute bg-white h-auto z-10 left-0 right-0 max-h-40 shadow-md top-full overflow-y-auto card-scroll">
+                                                    <ul id="cityResults"
+                                                        class="grid grid-cols-1 divide-y flex-col capitalize w-full h-fit">
+                                                    </ul>
+                                                </div>
+                                                <span class="flex absolute -bottom-4 left-0 pl-3 text-xs text-red-500"
+                                                    id="cityError"></span>
                                             </div>
-
                                         </div>
 
                                         <div class="grid grid-cols-2 gap-2 w-full">
@@ -362,8 +367,8 @@
                                                 <input type="text" id="captcha" name="captcha" autocomplete="false"
                                                     class="flex h-4/5 my-auto w-full text-sm py-2 pl-3 rounded-sm outline-none border-none focus:outline-none"
                                                     placeholder="Enter Captcha *">
-                                                <span class="flex absolute -bottom-4 left-0 text-xs text-brand-red pl-3"
-                                                    style="font-size: 10px; color:red;" id="captchaError"></span>
+                                                <span class="flex absolute -bottom-4 left-0 pl-3 text-xs text-red-500"
+                                                    id="captchaError"></span>
                                             </div>
                                         </div>
 
@@ -381,8 +386,8 @@
                                                     to
                                                     connect with you. This will override the registry on DND/NDNC.</p>
                                             </label>
-                                            <span class=" flex absolute -bottom-4 left-0 pl-3"
-                                                style="font-size: 10px; color:red;" id="termError"></span>
+                                            <span class="flex absolute -bottom-4 left-0 pl-3 text-xs text-red-500"
+                                                id="termError"></span>
                                         </div>
                                     </form>
                                 </div>
@@ -5649,8 +5654,8 @@
                                 <input type="text" name="fullname" id="fullname1" autocomplete="false"
                                     class="flex w-full border text-sm px-3 py-2 rounded-md outline-none border-none focus:outline-none"
                                     placeholder="Enter Your Full Name *">
-                                <span class="flex absolute -bottom-4 left-0 pl-3" style="font-size: 10px; color:red;"
-                                    id="fullnameError1"></span>
+                                <span class="flex absolute -bottom-4 left-0 pl-3 text-xs text-red-500"
+                                    style="font-size: 10px; color:red;" id="fullnameError1"></span>
                             </div>
 
                             <div
@@ -5658,8 +5663,8 @@
                                 <input type="email" name="email" id="email1" autocomplete="false"
                                     class="flex w-full border text-sm px-3 py-2 rounded-md outline-none border-none focus:outline-none"
                                     placeholder="Enter Your Email *">
-                                <span class="flex absolute -bottom-4 left-0 pl-3" style="font-size: 10px; color:red;"
-                                    id="emailError1"></span>
+                                <span class="flex absolute -bottom-4 left-0 pl-3 text-xs text-red-500"
+                                    style="font-size: 10px; color:red;" id="emailError1"></span>
                             </div>
                             <div
                                 class="flex w-full flex-col relative transition-all group hover:shadow-sm hover:border-yellow-500 border rounded-md">
@@ -5673,31 +5678,38 @@
                                         class="flex w-full border text-sm pl-3 py-2 rounded-md outline-none border-none focus:outline-none"
                                         placeholder="Enter Your Mobile Number *">
                                 </div>
-                                <span class="flex absolute -bottom-4 left-0 pl-3" style="font-size: 10px; color:red;"
-                                    id="numberError1"></span>
+                                <span class="flex absolute -bottom-4 left-0 pl-3 text-xs text-red-500"
+                                    style="font-size: 10px; color:red;" id="numberError1"></span>
                             </div>
                             <div class="grid grid-cols-2 gap-2 w-full">
                                 <div
-                                    class="location flex w-full flex-col relative transition-all group hover:shadow-sm hover:border-yellow-500 border rounded-md">
-                                    <select id="state1" name="state" autocomplete="none"
-                                        class="flex w-full border text-sm h-9 px-3 rounded-md outline-none border-none focus:outline-none">
-                                        <option value="" class="flex w-full h-full text-sm py-2 " disabled selected>
-                                            Select State</option>
-                                    </select>
-                                    <span class="flex absolute -bottom-4 left-0 pl-3"
-                                        style="font-size: 10px; color:red;" id="stateError1"></span>
+                                    class="location relative flex w-full flex-col bg-white transition-all group hover:shadow-sm hover:border-glory-blue-500 border rounded-md">
+                                    <input type="text" name="state" id="state1"
+                                        class="flex w-full border text-sm px-3 py-2 rounded-md outline-none border-none focus:outline-none"
+                                        placeholder="Search State">
+                                    <div
+                                        class="flex w-full rounded-md absolute bg-white h-auto z-10 left-0 right-0 max-h-40 shadow-md top-full overflow-y-auto card-scroll">
+                                        <ul id="stateResults1"
+                                            class="grid grid-cols-1 divide-y flex-col capitalize w-full h-fit ">
+                                        </ul>
+                                    </div>
+                                    <span class="flex absolute -bottom-4 left-0 pl-3 text-xs text-red-500"
+                                        id="stateError1"></span>
                                 </div>
                                 <div
-                                    class="location flex w-full flex-col relative transition-all group hover:shadow-sm hover:border-yellow-500 border rounded-md">
-                                    <select id="city1" name="city" disabled autocomplete="none"
-                                        class="flex w-full border text-sm h-9 px-3 rounded-md outline-none border-none focus:outline-none">
-                                        <option value="" class="flex w-full h-full text-sm py-2 " disabled selected>
-                                            Select City</option>
-                                    </select>
-                                    <span class="flex absolute -bottom-4 left-0 pl-3"
-                                        style="font-size: 10px; color:red;" id="cityError1"></span>
+                                    class="location relative flex w-full flex-col bg-white transition-all group hover:shadow-sm hover:border-glory-blue-500 border rounded-md">
+                                    <input type="text" name="city" id="city1"
+                                        class="flex w-full border text-sm px-3 py-2 rounded-md outline-none border-none focus:outline-none"
+                                        placeholder="Search City">
+                                    <div
+                                        class="flex w-full rounded-md absolute bg-white h-auto z-10 left-0 right-0 max-h-40 shadow-md top-full overflow-y-auto card-scroll">
+                                        <ul id="cityResults1"
+                                            class="grid grid-cols-1 divide-y flex-col capitalize w-full h-fit">
+                                        </ul>
+                                    </div>
+                                    <span class="flex absolute -bottom-4 left-0 pl-3 text-xs text-red-500"
+                                        id="cityError1"></span>
                                 </div>
-
                             </div>
 
                             <div class="grid grid-cols-2 gap-2 w-full">
@@ -5723,8 +5735,8 @@
                                     <input type="text" id="captcha1" name="captcha" autocomplete="false"
                                         class="flex h-4/5 my-auto w-full text-sm py-2 pl-3 rounded-sm outline-none border-none focus:outline-none"
                                         placeholder="Enter Captcha *">
-                                    <span class="flex absolute -bottom-4 left-0 text-xs text-[#a91d54]-red pl-3"
-                                        style="font-size: 10px; color:red;" id="captchaError1"></span>
+                                    <span class="flex absolute -bottom-4 left-0 pl-3 text-xs text-red-500"
+                                        id="captchaError1"></span>
                                 </div>
                             </div>
 
@@ -5738,8 +5750,8 @@
                                         to
                                         connect with you. This will override the registry on DND/NDNC.</p>
                                 </label>
-                                <span class="flex absolute -bottom-4 left-0 pl-3" style="font-size: 10px; color:red;"
-                                    id="termError1"></span>
+                                <span class="flex absolute -bottom-4 left-0 pl-3 text-xs text-red-500"
+                                    style="font-size: 10px; color:red;" id="termError1"></span>
                             </div>
 
                             <div class="flex w-full">
