@@ -1350,6 +1350,22 @@ video {
   background-size: contain;
 }
 
+.bg-\[length\:auto_80\%\]{
+  background-size: auto 80%;
+}
+
+.bg-\[length\:auto_85\%\]{
+  background-size: auto 85%;
+}
+
+.bg-\[length\:auto_83\%\]{
+  background-size: auto 83%;
+}
+
+.bg-\[length\:auto_89\%\]{
+  background-size: auto 89%;
+}
+
 .bg-\[right_15\%_center\]{
   background-position: right 15% center;
 }
@@ -1360,6 +1376,30 @@ video {
 
 .bg-\[right_30\%_bottom\]{
   background-position: right 30% bottom;
+}
+
+.bg-\[right_35\%_bottom\]{
+  background-position: right 35% bottom;
+}
+
+.bg-\[right_40\%_bottom\]{
+  background-position: right 40% bottom;
+}
+
+.bg-center{
+  background-position: center;
+}
+
+.bg-\[right_50\%_bottom\]{
+  background-position: right 50% bottom;
+}
+
+.bg-\[right_45\%_bottom\]{
+  background-position: right 45% bottom;
+}
+
+.bg-\[right_48\%_bottom\]{
+  background-position: right 48% bottom;
 }
 
 .bg-no-repeat{
