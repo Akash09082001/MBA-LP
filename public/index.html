@@ -58,13 +58,13 @@
                     </li>
                     <li class="flex w-fit">
                         <button onclick="openModal()"
-                            class="flex w-fit text-sm px-4 py-2 bg-[#a91d54] rounded-md text-white transition-all shimmer-effect1">
+                            class="flex w-fit text-sm px-4 py-2 bg-[#a91d54] rounded-full text-white transition-all ">
                             <span>Enquire Now</span>
                         </button>
                     </li>
                     <li class="flex w-fit">
                         <button onclick="openModal()"
-                            class="flex w-fit text-sm px-4 py-2 bg-[#a91d54] rounded-md text-white transition-all shimmer-effect1">
+                            class="flex w-fit text-sm px-4 py-2 bg-[#a91d54] rounded-full text-white transition-all ">
                             <span>Apply Now</span>
                         </button>
                     </li>
@@ -72,7 +72,7 @@
             </nav>
             <div class="flex w-fit items-center">
                 <button id="open"
-                    class="flex lg:hidden w-fit h-fit text-sm px-2 py-2 bg-[#a91d54] rounded-md text-white transition-all">
+                    class="flex lg:hidden w-fit h-fit text-sm px-2 py-2 bg-[#a91d54] rounded-full text-white transition-all">
                     <span>
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-5">
                             <path fill-rule="evenodd"
@@ -90,7 +90,7 @@
                         </div>
                         <div class="flex w-auto h-full items-center justify-end">
 
-                            <button id="close" class="flex  rounded-md     py-2 px-2 items-center justify-center">
+                            <button id="close" class="flex  rounded-full     py-2 px-2 items-center justify-center">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
                                     class="w-6 h-6">
                                     <path fill-rule="evenodd"
@@ -126,13 +126,13 @@
                         </li>
                         <li class="flex w-full">
                             <button onclick="openModal()"
-                                class="flex w-full text-sm px-4 py-2 bg-[#a91d54] rounded-md text-white transition-all shimmer-effect1">
+                                class="flex w-full text-sm px-4 py-2 bg-[#a91d54] rounded-full text-white transition-all ">
                                 <span>Enquire Now</span>
                             </button>
                         </li>
                         <li class="flex w-full">
                             <button onclick="applyNow()"
-                                class="flex w-full text-sm px-4 py-2 bg-[#a91d54] rounded-md text-white transition-all shimmer-effect1">
+                                class="flex w-full text-sm px-4 py-2 bg-[#a91d54] rounded-full text-white transition-all ">
                                 <span>Apply Now</span>
                             </button>
                         </li>
@@ -146,7 +146,7 @@
 
         <div class="flex md:hidden w-full fixed inset-x-0 bottom-0 bg-white h-fit z-20">
             <button onclick="openModal()"
-                class="bg-[#a91d54] gap-2 inline-flex text-white px-5 py-2 w-full text-center items-center justify-center shimmer-effect1">Enquire
+                class="bg-[#a91d54] gap-2 inline-flex text-white px-5 py-2 w-full text-center items-center justify-center ">Enquire
                 Now
             </button>
         </div>
@@ -177,19 +177,19 @@
                                     <span class="text-sm md:text-base lg:text-lg font-bold">
                                         Admissions Open for
                                     </span>
-                                    <h1 class="flex font-semibold flex-col text-6xl lg:text-6xl xl:text-7xl w-fit">
+                                    <h1 class="flex font-semibold flex-col text-6xl lg:text-6xl xl:text-5xl w-fit">
                                         <span
-                                            class="bg-black font-Bebas-Neue text-white font-semibold w-fit pt-1 px-2 rounded-md tracking-wide">
+                                            class="font-Bebas-Neue text-black font-semibold w-fit pt-1 px-2 rounded-md tracking-wide">
                                             ITM MBA
                                         </span>
                                         <span class="gap-2 mt-1 flex w-full items-end">
                                             <span
-                                                class="bg-black font-Bebas-Neue text-white font-semibold w-fit pt-1 px-2 rounded-t-md">
-                                                𝒊Connect</span>
-                                            <span class="text-sm md:text-base lg:text-lg font-bold">2025-27</span>
+                                                class="font-Bebas-Neue text-black font-semibold w-fit pt-1 px-2 rounded-t-md">
+                                                &nbsp;<i>𝒊Connect</i>&nbsp;</span>
+                                            <!-- <span class="text-sm md:text-base lg:text-lg font-bold">2025-27</span> -->
                                         </span>
                                         <span
-                                            class="bg-yellow-500 rounded-b-md uppercase text-xs font-extrabold w-[202px] py-1 md:w-[239px] text-center shimmer-effect1">
+                                            class="text-orange-600 bg-[#feeaca] rounded-md uppercase text-xs font-extrabold w-fit py-1 px-2  text-center ">
                                             Where you learn through experience
                                         </span>
 
@@ -258,9 +258,9 @@
                                             <span class="text-[#a91d54] font-semibold"> 10th Dec'24</span>
                                         </div>
                                     </div>
-                                    <div class="flex w-full">
+                                    <div class="hidden md:flex w-full">
                                         <button onclick="openModal()"
-                                            class="bg-[#a91d54] rounded-lg gap-2 inline-flex text-white px-5 py-2 w-full md:w-fit text-center items-center justify-center shimmer-effect1">Download
+                                            class="bg-[#a91d54] rounded-full gap-2 inline-flex text-white px-5 py-2 w-full md:w-fit text-center items-center justify-center ">Download
                                             Brochure
                                             <span>
                                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
@@ -374,7 +374,7 @@
 
                                         <div class="flex w-full">
                                             <button type="submit"
-                                                class="flex w-full items-center justify-center rounded-lg bg-[#A91D54] hover:bg-black transition-all py-3 text-center text-base text-white shimmer-effect1">Submit</button>
+                                                class="flex w-full items-center justify-center rounded-full bg-[#A91D54] hover:bg-black transition-all py-3 text-center text-base text-white ">Submit</button>
                                         </div>
                                         <div class="flex w-full h-fit relative">
                                             <label for="term" class="w-full h-10 flex items-start justify-start">
@@ -397,28 +397,30 @@
                 </div>
             </section>
 
-            <section id="Highlights" class="flex w-full">
-                <div
-                    class="flex flex-col gap-4 md:gap-8 lg:gap-12 w-full max-w-7xl mx-auto py-4 px-4 md:py-6 lg:py-8 xl:py-10">
+            <section id="Highlights"
+                class="flex relative w-full md:bg-[url('https://cdn.itm.edu/assets/cheerful_students_celebrating_03aa2d6210.webp')] md:bg-contain md:bg-[center_left_-60%] xl:bg-[center_left_-50%] bg-no-repeat">
+                <div class="flex flex-col gap-4 md:gap-8 lg:gap-12 w-full max-w-7xl mx-auto px-4 py-10">
                     <div class="flex flex-col gap-2 md:gap-3 w-full justify-center items-center">
-                        <span class="font-Bebas-Neue font-semibold text-2xl md:text-3xl lg:text-4xl">Program Highlights
+                        <span class="font-Bebas-Neue font-medium text-[26px] md:text-3xl lg:text-4xl">Program
+                            Highlights
                         </span>
                     </div>
                     <div class="flex w-full overflow-x-auto pb-3 card-scroll">
                         <div class="flex w-fit gap-4">
                             <div
-                                class="flex flex-col gap-4 w-80 rounded-lg transition-all border border-gray-200 hover:border-[#a91d54] shadow-md justify-between p-6">
+                                class="flex flex-col gap-4 w-80 md:w-96 rounded-3xl transition-all bg-white border border-[#a91d54] shadow-md justify-between p-6">
                                 <div class="flex flex-col gap-4 w-full">
-                                    <span class="text-lg font-semibold text-[#a91d54]">5-Month Industry Internship
+                                    <span class="text-lg md:text-[22px] font-semibold text-[#a91d54]">5-Month Industry
+                                        Internship
                                     </span>
-                                    <p class="text-xs md:text-sm">
+                                    <p class="text-sm">
                                         All students undergo a mandatory 5-month paid internship and a 2-week NGO
                                         internship. This real-world work experience and networking with industry is
                                         invaluable at the time of final placement.
                                     </p>
                                 </div>
                                 <a href="#Placement"
-                                    class="inline-flex gap-2 text-[#a91d54] rounded-lg w-full md:w-fit text-center items-center justify-center">
+                                    class="inline-flex gap-2 bg-[#a91d54] text-white rounded-full py-2 w-full text-center items-center justify-center">
                                     Know More
 
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
@@ -429,12 +431,13 @@
                                 </a>
                             </div>
                             <div
-                                class="flex flex-col gap-4 w-80 rounded-lg transition-all border border-gray-200 hover:border-[#a91d54] justify-between shadow-md p-6">
+                                class="flex flex-col gap-4 w-80 md:w-96 rounded-3xl transition-all bg-white border border-[#a91d54] justify-between shadow-md p-6">
                                 <div class="flex flex-col gap-4 w-full">
 
-                                    <span class="text-lg font-semibold text-[#a91d54]">100% Placement Assurance
+                                    <span class="text-lg md:text-[22px] font-semibold text-[#a91d54]">100% Placement
+                                        Assurance
                                     </span>
-                                    <p class="text-xs md:text-sm">
+                                    <p class="text-sm">
                                         34 years of ITM Business School legacy, a strong alumni network, and deep
                                         industry
                                         involvement in all aspects of the program ensure that every student at ITM is
@@ -451,7 +454,7 @@
                                     </div>
                                 </div>
                                 <a href="#Placement"
-                                    class="inline-flex gap-2 text-[#a91d54] rounded-lg w-full md:w-fit text-center items-center justify-center">
+                                    class="inline-flex gap-2 bg-[#a91d54] text-white rounded-full py-2 w-full text-center items-center justify-center">
                                     Know More
 
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
@@ -462,12 +465,13 @@
                                 </a>
                             </div>
                             <div
-                                class="flex flex-col gap-4 w-80 rounded-lg transition-all border border-gray-200 hover:border-[#a91d54] justify-between shadow-md p-6">
+                                class="flex flex-col gap-4 w-80 md:w-96 rounded-3xl transition-all bg-white border border-[#a91d54] justify-between shadow-md p-6">
                                 <div class="flex flex-col gap-4 w-full">
-                                    <span class="text-lg font-semibold text-[#a91d54]">On-Campus Start-Up Incubator with
+                                    <span class="text-lg md:text-[22px] font-semibold text-[#a91d54]">On-Campus Start-Up
+                                        Incubator with
                                         Funding
                                     </span>
-                                    <p class="text-xs md:text-sm">
+                                    <p class="text-sm">
                                         The On-Campus Start-Up Incubator provides students with access to resources to
                                         develop their start-up ideas. Events such as hackathons, industry masterclasses,
                                         participation in industry conferences and events, mentorship boot camps, etc.,
@@ -477,7 +481,7 @@
                                     </p>
                                 </div>
                                 <a href="#Incubator"
-                                    class="inline-flex gap-2 text-[#a91d54] rounded-lg w-full md:w-fit text-center items-center justify-center">
+                                    class="inline-flex gap-2 bg-[#a91d54] text-white rounded-full py-2 w-full text-center items-center justify-center">
                                     Know More
 
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
@@ -488,12 +492,15 @@
                                 </a>
                             </div>
                             <div
-                                class="flex flex-col gap-4 w-80 rounded-lg transition-all border border-gray-200 hover:border-[#a91d54] justify-between shadow-md p-6">
+                                class="flex flex-col gap-4 w-80 md:w-96 rounded-3xl transition-all bg-white border border-[#a91d54] justify-between shadow-md p-6">
                                 <div class="flex flex-col gap-4 w-full">
-                                    <span class="text-lg font-semibold text-[#a91d54]">35+ Professional Certifications
+                                    <span class="text-lg md:text-[22px] font-semibold text-[#a91d54]">35+ Professional
+                                        Certifications
                                     </span>
-                                    <p class="text-xs md:text-sm">
-                                        The ITM MBA 𝒊Connect offers 35+ professional certifications in advanced courses
+                                    <p class="text-sm">
+                                        The ITM MBA&nbsp;<i>𝒊Connect</i>&nbsp; offers 35+ professional certifications
+                                        in
+                                        advanced courses
                                         with high demand in the industry, giving students a distinct advantage during
                                         placements. These certifications are provided across program specializations and
                                         are
@@ -501,7 +508,7 @@
                                     </p>
                                 </div>
                                 <button
-                                    class="inline-flex gap-2 text-[#a91d54] rounded-lg w-full md:w-fit text-center items-center justify-center shimmer-effect1">
+                                    class="inline-flex gap-2 bg-[#a91d54] text-white rounded-full py-2 w-full text-center items-center justify-center ">
                                     Know More
 
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
@@ -512,20 +519,23 @@
                                 </button>
                             </div>
                             <div
-                                class="flex flex-col gap-4 w-80 rounded-lg transition-all border border-gray-200 hover:border-[#a91d54] justify-between shadow-md p-6">
+                                class="flex flex-col gap-4 w-80 md:w-96 rounded-3xl transition-all bg-white border border-[#a91d54] justify-between shadow-md p-6">
                                 <div class="flex flex-col gap-4 w-full">
-                                    <span class="text-lg font-semibold text-[#a91d54]">4 Global Immersion Programs To
+                                    <span class="text-lg md:text-[22px] font-semibold text-[#a91d54]">4 Global Immersion
+                                        Programs To
                                         Choose
                                         From
                                     </span>
-                                    <p class="text-xs md:text-sm">
-                                        ITM MBA 𝒊Connect offers 4 Global Immersion Programs (GIP) in UAE, Malaysia,
+                                    <p class="text-sm">
+                                        ITM MBA&nbsp;<i>𝒊Connect</i>&nbsp; offers 4 Global Immersion Programs (GIP) in
+                                        UAE,
+                                        Malaysia,
                                         Singapore, and Europe. Depending on the program one opts for, these are either
                                         mandatory or optional.
                                     </p>
                                 </div>
                                 <a href="#GIP"
-                                    class="inline-flex gap-2 text-[#a91d54] rounded-lg w-full md:w-fit text-center items-center justify-center">
+                                    class="inline-flex gap-2 bg-[#a91d54] text-white rounded-full py-2 w-full text-center items-center justify-center">
                                     Know More
 
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
@@ -536,11 +546,11 @@
                                 </a>
                             </div>
                             <div
-                                class="flex flex-col gap-4 w-80 rounded-lg transition-all border border-gray-200 hover:border-[#a91d54] justify-between shadow-md p-6">
+                                class="flex flex-col gap-4 w-80 md:w-96 rounded-3xl transition-all bg-white border border-[#a91d54] justify-between shadow-md p-6">
                                 <div class="flex flex-col gap-4 w-full">
-                                    <span class="text-lg font-semibold text-[#a91d54]">10 Specializations
+                                    <span class="text-lg md:text-[22px] font-semibold text-[#a91d54]">10 Specializations
                                     </span>
-                                    <p class="text-xs md:text-sm">
+                                    <p class="text-sm">
                                         Students can specialize in one of ten fields tailored to industry demand and
                                         future
                                         job prospects. Mainstream Specializations include Marketing Management,
@@ -552,7 +562,7 @@
                                     </p>
                                 </div>
                                 <a href="#Specializations"
-                                    class="inline-flex gap-2 text-[#a91d54] rounded-lg w-full md:w-fit text-center items-center justify-center">
+                                    class="inline-flex gap-2 bg-[#a91d54] text-white rounded-full py-2 w-full text-center items-center justify-center">
                                     Know More
 
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
@@ -563,11 +573,13 @@
                                 </a>
                             </div>
                             <div
-                                class="flex flex-col gap-4 w-80 rounded-lg transition-all border border-gray-200 hover:border-[#a91d54] justify-between shadow-md p-6">
+                                class="flex flex-col gap-4 w-80 md:w-96 rounded-3xl transition-all bg-white border border-[#a91d54] justify-between shadow-md p-6">
                                 <div class="flex flex-col gap-4 w-full">
-                                    <span class="text-lg font-semibold text-[#a91d54]">Personal Professional Development
+                                    <span class="text-lg md:text-[22px] font-semibold text-[#a91d54]">Personal
+                                        Professional
+                                        Development
                                     </span>
-                                    <p class="text-xs md:text-sm">
+                                    <p class="text-sm">
                                         As an integral part of the program, students participate in 300+ hours of soft
                                         skills training to prepare them for real-world situations in Presentation
                                         Skills,
@@ -576,7 +588,7 @@
                                     </p>
                                 </div>
                                 <button
-                                    class="inline-flex gap-2 text-[#a91d54] rounded-lg w-full md:w-fit text-center items-center justify-center shimmer-effect1">
+                                    class="inline-flex gap-2 bg-[#a91d54] text-white rounded-full py-2 w-full text-center items-center justify-center ">
                                     Know More
 
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
@@ -592,16 +604,15 @@
             </section>
 
             <section id="About" class="flex w-full">
-                <div
-                    class="grid grid-cols-1 md:grid-cols-2 gap-4 w-full max-w-7xl mx-auto py-4 px-4 md:py-6 lg:py-8 xl:py-10">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4 w-full max-w-7xl mx-auto px-4 py-10">
                     <div class="flex w-full">
-                        <div class="flex relative border aspect-video w-full">
+                        <div class="flex relative aspect-video w-full">
                             <img src="https://cdn.itm.edu/assets/i_Con_Img_ccef51f16b.webp" alt="About MBA Iconnect"
-                                class="w-full h-full object-cover rounded-lg">
+                                class="w-full h-full object-cover rounded-l-lg rounded-tr-lg md:rounded-l-3xl md:rounded-tr-3xl">
                             <div
-                                class="w-32 md:w-40 flex flex-col bottom-0 right-0 rounded-lg p-2 md:p-4 z-10 absolute bg-[#a91d54] text-white">
+                                class="w-32 md:w-40 flex flex-col bottom-0 right-0 rounded-l-lg rounded-tr-lg md:rounded-l-3xl md:rounded-tr-3xl p-2 md:p-4 z-10 absolute bg-[#a91d54] text-white gap-4">
                                 <span class="text-xs md:text-sm">Strong Alumni Network of 500+ CXOs</span>
-                                <a href="#Alumni" class="justify-end w-full flex">
+                                <a href="#Alumni" class="justify-start w-full flex">
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                                         stroke-width="1.5" stroke="currentColor" class="size-4">
                                         <path stroke-linecap="round" stroke-linejoin="round"
@@ -613,20 +624,23 @@
                     </div>
                     <div class="flex flex-col gap-2 md:gap-4 md:py-4 lg:py-6 xl:py-8 w-full">
                         <div class="flex w-full justify-start">
-                            <span class="font-Bebas-Neue font-semibold text-2xl md:text-3xl lg:text-4xl">MBA
-                                𝒊Connect
+                            <span
+                                class="font-Bebas-Neue font-medium text-[24px] md:text-3xl lg:text-4xl">MBA&nbsp;<i>𝒊Connect</i>&nbsp;
                                 2025-27
                             </span>
                         </div>
                         <div class="w-full space-y-2">
                             <p class="text-sm md:text-base">
-                                The ITM MBA 𝒊Connect is a 2-year, full-time program that focuses on giving you hands-on
+                                The ITM MBA&nbsp;<i>𝒊Connect</i>&nbsp; is a 2-year, full-time program that focuses on
+                                giving
+                                you hands-on
                                 experience. Unlike the traditional MBA, which can
                                 sometimes feel like theoretical learning in the classroom, this program is hands-on,
                                 with a strong emphasis on industry connect and experiential learning.
                             </p>
                             <p class="text-sm md:text-base">
-                                The MBA 𝒊Connect connects the students with the industry and provides learning through
+                                The MBA&nbsp;<i>𝒊Connect</i>&nbsp; connects the students with the industry and provides
+                                learning through
                                 real-life work experiences via internships, live projects, etc. Say goodbye to boring
                                 exams - you will not be evaluated on written exams, but based on your performance in
                                 both your internships, the capstone project, your participation in industry visits in
@@ -638,204 +652,139 @@
                 </div>
             </section>
 
-            <section id="#Specializations" class="flex w-full bg-[#feefdf]">
-                <div
-                    class="flex flex-col gap-4 md:gap-8 lg:gap-12 w-full max-w-7xl mx-auto py-4 px-4 md:py-6 lg:py-8 xl:py-10">
-                    <div class="flex flex-col gap-2 md:gap-3 w-full justify-center items-center">
-                        <span class="font-Bebas-Neue font-semibold text-2xl md:text-3xl lg:text-4xl">Industry-Preferred
+            <section id="#Specializations" class="flex w-full bg-gradient-to-b from-[#f0f6f6] to-[#feefdf] md:bg-none">
+                <div class="flex flex-col gap-8 lg:gap-12 w-full pt-10 md:pb-10">
+                    <div
+                        class="flex flex-col max-w-7xl mx-auto px-4 gap-2 md:gap-3 w-full justify-center md:items-center">
+                        <span class="font-Bebas-Neue font-medium text-2xl md:text-3xl lg:text-4xl">Industry-Preferred
                             Specializations
                         </span>
-                        <p class="text-sm md:text-base text-center">
-                            With the ITM MBA 𝒊Connect, you can choose from one of ten industry-preferred
+                        <p class="text-sm md:text-base text-left md:text-center">
+                            With the ITM MBA&nbsp;<i>𝒊Connect</i>&nbsp;, you can choose from one of ten
+                            industry-preferred
                             specializations
                             in the 2nd year of the program. Each specialization comes with Industry Required Value-Added
                             Certifications to enhance work readiness. You can choose your area of expertise from the
                             second year onwards in any of the following:</p>
                     </div>
-                    <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4">
+                    <div
+                        class="flex relative w-full md:after:flex md:after:absolute md:after:contain-content md:after:bg-gradient-to-r md:after:from-[#f0f6f6] md:after:from-50% md:after:to-50% md:after:to-[#feefdf] md:after:bottom-0 md:after:inset-x-0 md:after:h-3/4 md:after:w-full">
                         <div
-                            class="flex flex-col gap-2 md:gap-4 w-full md:justify-end md:pt-4 lg:pt-[100px] xl:pt-[150px] order-1">
-                            <span class="text-lg font-semibold font-inter md:text-xl">
-                                New-Age Specializations
-                            </span>
-                            <ul class="flex flex-col gap-2 w-full">
-                                <li class="inline-flex items-center gap-2 w-full">
-                                    <span class="text-[#a91d54]">
-                                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24"
-                                            stroke-width="1.5" stroke="currentColor" class="size-6">
-                                            <path stroke-linecap="round" stroke-linejoin="round"
-                                                d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25" />
-                                        </svg>
-
-                                    </span>
-                                    <span class="text-sm md:text-base">
-                                        Financial Services
-                                    </span>
-                                </li>
-                                <li class="inline-flex items-center gap-2 w-full">
-                                    <span class="text-[#a91d54]">
-                                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24"
-                                            stroke-width="1.5" stroke="currentColor" class="size-6">
-                                            <path stroke-linecap="round" stroke-linejoin="round"
-                                                d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25" />
-                                        </svg>
-
-                                    </span>
-                                    <span class="text-sm md:text-base">
-                                        FinTech
-                                    </span>
-                                </li>
-                                <li class="inline-flex items-center gap-2 w-full">
-                                    <span class="text-[#a91d54]">
-                                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24"
-                                            stroke-width="1.5" stroke="currentColor" class="size-6">
-                                            <path stroke-linecap="round" stroke-linejoin="round"
-                                                d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25" />
-                                        </svg>
-
-                                    </span>
-                                    <span class="text-sm md:text-base">
-                                        Digital Marketing and Media Management
-                                    </span>
-                                </li>
-                                <li class="inline-flex items-center gap-2 w-full">
-                                    <span class="text-[#a91d54]">
-                                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24"
-                                            stroke-width="1.5" stroke="currentColor" class="size-6">
-                                            <path stroke-linecap="round" stroke-linejoin="round"
-                                                d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25" />
-                                        </svg>
-
-                                    </span>
-                                    <span class="text-sm md:text-base">
-                                        Business Analytics
-                                    </span>
-                                </li>
-                                <li class="inline-flex items-center gap-2 w-full">
-                                    <span class="text-[#a91d54]">
-                                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24"
-                                            stroke-width="1.5" stroke="none" class="size-6">
-                                            <path stroke-linecap="round" stroke-linejoin="round"
-                                                d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25" />
-                                        </svg>
-
-                                    </span>
-                                    <span class="text-sm md:text-base">
-                                        Retail Management and E-Commerce
-                                    </span>
-                                </li>
-                            </ul>
-                            <a href="#New-Age-Specializations"
-                                class="bg-[#a91d54] inline-flex gap-2 rounded-lg text-white px-5 py-2 w-fit text-center items-center justify-center">
-                                Know More
-                                <span>
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                        stroke-width="1.5" stroke="currentColor" class="size-5">
-                                        <path stroke-linecap="round" stroke-linejoin="round"
-                                            d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
-                                    </svg>
+                            class="grid grid-cols-1 md:grid-cols-2 z-10 lg:grid-cols-3 gap-8 md:gap-4 px-4 w-full max-w-7xl mx-auto">
+                            <div
+                                class="flex flex-col gap-6 w-full md:justify-end md:pt-4 lg:pt-[100px] xl:pt-[150px] lg:pb-[45px] ">
+                                <span class="text-xl font-semibold font-inter md:text-2xl">
+                                    New-Age Specializations
                                 </span>
-                            </a>
-                        </div>
-                        <div class="flex w-full order-3 md:order-2">
-                            <div class="flex relative aspect-sqaure w-full">
-                                <img src="https://cdn.itm.edu/assets/young_couple_cb40c8b87d.webp"
-                                    alt="About MBA Iconnect" class="w-full object-cover object-center  ">
+                                <ul class="flex flex-col gap-2 w-full">
+                                    <li class="inline-flex items-center gap-2 w-full">
+                                        <span class="bg-gray-800 size-2 rounded-full"></span>
+                                        <span class="text-sm ">
+                                            Financial Services
+                                        </span>
+                                    </li>
+                                    <li class="inline-flex items-center gap-2 w-full">
+                                        <span class="bg-gray-800 size-2 rounded-full"></span>
+                                        <span class="text-sm ">
+                                            FinTech
+                                        </span>
+                                    </li>
+                                    <li class="inline-flex items-center gap-2 w-full">
+                                        <span class="bg-gray-800 size-2 rounded-full"></span>
+                                        <span class="text-sm ">
+                                            Digital Marketing and Media Management
+                                        </span>
+                                    </li>
+                                    <li class="inline-flex items-center gap-2 w-full">
+                                        <span class="bg-gray-800 size-2 rounded-full"></span>
+                                        <span class="text-sm ">
+                                            Business Analytics
+                                        </span>
+                                    </li>
+                                    <li class="inline-flex items-center gap-2 w-full">
+                                        <span class="bg-gray-800 size-2 rounded-full"></span>
+                                        <span class="text-sm ">
+                                            Retail Management and E-Commerce
+                                        </span>
+                                    </li>
+                                </ul>
+                                <a href="#New-Age-Specializations"
+                                    class="bg-[#a91d54] inline-flex gap-2 rounded-full text-white px-5 py-2 w-fit text-center items-center justify-center">
+                                    Know More
+                                    <span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                            stroke-width="1.5" stroke="currentColor" class="size-5">
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                                        </svg>
+                                    </span>
+                                </a>
                             </div>
-                        </div>
-                        <div
-                            class="flex flex-col gap-2 md:gap-4 w-full md:justify-end md:pt-4 lg:pt-[100px] xl:pt-[150px] order-2 md:order-3">
-                            <span class="text-lg font-semibold font-inter md:text-xl">
-                                Mainstream Specializations
-                            </span>
-                            <ul class="flex flex-col gap-2 w-full">
-                                <li class="inline-flex items-center gap-2 w-full">
-                                    <span class="text-[#a91d54]">
-                                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24"
-                                            stroke-width="1.5" stroke="currentColor" class="size-6">
-                                            <path stroke-linecap="round" stroke-linejoin="round"
-                                                d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25" />
-                                        </svg>
-
-                                    </span>
-                                    <span class="text-sm md:text-base">
-                                        Marketing Management
-                                    </span>
-                                </li>
-                                <li class="inline-flex items-center gap-2 w-full">
-                                    <span class="text-[#a91d54]">
-                                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24"
-                                            stroke-width="1.5" stroke="currentColor" class="size-6">
-                                            <path stroke-linecap="round" stroke-linejoin="round"
-                                                d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25" />
-                                        </svg>
-
-                                    </span>
-                                    <span class="text-sm md:text-base">
-                                        International Business
-                                    </span>
-                                </li>
-                                <li class="inline-flex items-center gap-2 w-full">
-                                    <span class="text-[#a91d54]">
-                                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24"
-                                            stroke-width="1.5" stroke="currentColor" class="size-6">
-                                            <path stroke-linecap="round" stroke-linejoin="round"
-                                                d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25" />
-                                        </svg>
-
-                                    </span>
-                                    <span class="text-sm md:text-base">
-                                        Human Resource Management
-                                    </span>
-                                </li>
-                                <li class="inline-flex items-center gap-2 w-full">
-                                    <span class="text-[#a91d54]">
-                                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24"
-                                            stroke-width="1.5" stroke="currentColor" class="size-6">
-                                            <path stroke-linecap="round" stroke-linejoin="round"
-                                                d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25" />
-                                        </svg>
-
-                                    </span>
-                                    <span class="text-sm md:text-base">
-                                        Operations and Supply Chain Management
-                                    </span>
-                                </li>
-                                <li class="inline-flex items-center gap-2 w-full">
-                                    <span class="text-[#a91d54]">
-                                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24"
-                                            stroke-width="1.5" stroke="none" class="size-6">
-                                            <path stroke-linecap="round" stroke-linejoin="round"
-                                                d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25" />
-                                        </svg>
-
-                                    </span>
-                                    <span class="text-sm md:text-base">
-                                        Finance
-                                    </span>
-                                </li>
-                            </ul>
-                            <a href="#Mainstream Specializations"
-                                class="bg-[#a91d54] inline-flex gap-2 rounded-lg text-white px-5 py-2 w-fit text-center items-center justify-center">
-                                Know More
-                                <span>
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                        stroke-width="1.5" stroke="currentColor" class="size-5">
-                                        <path stroke-linecap="round" stroke-linejoin="round"
-                                            d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
-                                    </svg>
+                            <div class="flex md:hidden lg:flex w-full order-3 lg:order-2">
+                                <div class="flex relative aspect-sqaure w-full">
+                                    <img src="https://cdn.itm.edu/assets/young_couple_cb40c8b87d.webp"
+                                        alt="About MBA Iconnect" class="w-full object-cover object-center">
+                                </div>
+                            </div>
+                            <div
+                                class="flex flex-col gap-6 w-full md:justify-end md:pt-4 lg:pt-[100px] xl:pt-[150px] lg:pb-[45px] lg:pl-8 order-2 lg:order-3">
+                                <span class="text-xl font-semibold font-inter md:text-2xl">
+                                    Mainstream Specializations
                                 </span>
-                            </a>
+                                <ul class="flex flex-col gap-2 w-full">
+                                    <li class="inline-flex items-center gap-2 w-full">
+                                        <span class="bg-gray-800 size-2 rounded-full"></span>
+                                        <span class="text-sm ">
+                                            Marketing Management
+                                        </span>
+                                    </li>
+                                    <li class="inline-flex items-center gap-2 w-full">
+                                        <span class="bg-gray-800 size-2 rounded-full"></span>
+                                        <span class="text-sm ">
+                                            International Business
+                                        </span>
+                                    </li>
+                                    <li class="inline-flex items-center gap-2 w-full">
+                                        <span class="bg-gray-800 size-2 rounded-full"></span>
+                                        <span class="text-sm ">
+                                            Human Resource Management
+                                        </span>
+                                    </li>
+                                    <li class="inline-flex items-center gap-2 w-full">
+                                        <span class="bg-gray-800 size-2 rounded-full"></span>
+                                        </span>
+                                        <span class="text-sm ">
+                                            Operations and Supply Chain Management
+                                        </span>
+                                    </li>
+                                    <li class="inline-flex items-center gap-2 w-full">
+                                        <span class="bg-gray-800 size-2 rounded-full"></span>
+                                        <span class="text-sm ">
+                                            Finance
+                                        </span>
+                                    </li>
+                                </ul>
+                                <a href="#Mainstream Specializations"
+                                    class="bg-[#a91d54] inline-flex gap-2 rounded-full text-white px-5 py-2 w-fit text-center items-center justify-center">
+                                    Know More
+                                    <span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                            stroke-width="1.5" stroke="currentColor" class="size-5">
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                                        </svg>
+                                    </span>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </section>
 
-            <section class="flex w-full bg-gray-100">
-                <div
-                    class="flex flex-col gap-4 md:gap-8 lg:gap-12 w-full max-w-7xl mx-auto py-4 px-4 md:py-6 lg:py-8 xl:py-10">
+            <section class="flex w-full">
+                <div class="flex flex-col gap-8 lg:gap-12 w-full max-w-7xl mx-auto px-4 py-10">
                     <div class="flex flex-col gap-2 md:gap-3 w-full justify-center items-center">
-                        <span class="font-Bebas-Neue font-semibold text-2xl md:text-3xl lg:text-4xl">Ranking
+                        <span class="font-Bebas-Neue font-medium text-[24px] md:text-3xl lg:text-4xl">Ranking
                         </span>
                     </div>
                     <div class="flex w-full overflow-x-auto pb-3 card-scroll">
@@ -846,18 +795,19 @@
                 </div>
             </section>
 
-            <section class="flex w-full bg-gray-100">
-                <div
-                    class="flex flex-col gap-4 md:gap-8 lg:gap-12 w-full max-w-7xl mx-auto py-4 px-4 md:py-6 lg:py-8 xl:py-10">
+            <section class="flex w-full ">
+                <div class="flex flex-col gap-8 lg:gap-12 w-full max-w-7xl mx-auto px-4 py-10">
                     <div class="flex flex-col gap-2 md:gap-3 w-full justify-center items-center">
                         <span class="font-Bebas-Neue font-semibold text-2xl md:text-3xl lg:text-4xl">Why Choose the ITM
-                            MBA 𝒊Connect ?
+                            MBA&nbsp;<i>𝒊Connect</i>&nbsp; ?
                         </span>
                         <p class="text-sm md:text-base text-center">
                             There must be more than old-school textbook learning to prepare you for the real world! The
                             next 2 years should be spent earning a degree, having fun, and honing your practical skills
                             to be all you want. So you can get your dream job or start up on your own. And that's what
-                            the MBA 𝒊Connect is all about. It ensures that every aspect of the program has an industry
+                            the MBA&nbsp;<i>𝒊Connect</i>&nbsp; is all about. It ensures that every aspect of the
+                            program has
+                            an industry
                             connection, so you are ready to leap into the real world!</p>
                     </div>
                     <div class="flex flex-col">
@@ -867,43 +817,42 @@
                                 <thead class="flex w-full">
                                     <tr class="flex w-full">
                                         <th
-                                            class="border-x w-1/3 font-bold py-2 items-center justify-center text-sm bg-black rounded-tl-md text-white">
+                                            class="border-x w-2/5 font-bold p-2 items-center justify-center text-sm bg-black rounded-tl-md text-white">
                                             Old-School MBA</th>
                                         <th
-                                            class="border-x w-2/3 font-bold py-2 items-center justify-center text-base shimmer-effect1 bg-[#a91d54] rounded-tr-md text-white">
-                                            MBA 𝒊Connect at ITM Business School</th>
+                                            class="border-x w-3/5 font-bold p-2 items-start text-left justify-left text-base bg-[#a91d54] rounded-tr-md text-white">
+                                            MBA&nbsp;<i>𝒊Connect</i>&nbsp; at ITM Business School</th>
                                     </tr>
                                 </thead>
                                 <tbody class="flex flex-col w-full">
-                                    <tr class="flex border-y w-full  odd:text-sm odd:font-bold even:text-xs">
+                                    <tr class="flex border-y w-full odd:text-sm odd:font-bold even:text-sm">
                                         <td colspan="2" class="w-full px-2 py-2 border-x text-[#a91d54]">Internship</td>
                                     </tr>
-                                    <tr class="flex border-y w-full  odd:text-sm odd:font-bold even:text-xs">
+                                    <tr class="flex border-y w-full  odd:text-sm odd:font-bold even:text-sm">
                                         <td
-                                            class="w-1/3 px-2 py-2 bg-gray-100 border-x items-center justify-start flex">
+                                            class="w-2/5 px-2 py-2 bg-gray-100 border-x items-center justify-start flex">
                                             2-3 Months
                                         </td>
-                                        <td class="flex bg-[#fbf4eb] items-center w-2/3 px-2 py-2 border-x">
+                                        <td class="flex bg-[#ffeede] items-start w-3/5 px-2 py-2 border-x">
                                             <span class="flex w-[10%] text-[#a91d54]">
-                                                <img width="64" height="64"
-                                                    src="https://cdn.itm.edu/assets/star_c49a956938.svg" alt="star">
+                                                <img class="size-4" src="https://cdn.itm.edu/assets/star_c49a956938.svg"
+                                                    alt="star">
                                             </span> &nbsp; <span class="w-[90%] pl-1">
                                                 5 Months + 2 Weeks NGO Internship
                                             </span>
                                         </td>
                                     </tr>
-                                    <tr class="flex border-y w-full  odd:text-sm odd:font-bold even:text-xs">
+                                    <tr class="flex border-y w-full  odd:text-sm odd:font-bold even:text-sm">
                                         <td colspan="2" class="w-full px-2 py-2 border-x text-[#a91d54]">Placement</td>
                                     </tr>
-                                    <tr class="flex border-y w-full  odd:text-sm odd:font-bold even:text-xs">
+                                    <tr class="flex border-y w-full  odd:text-sm odd:font-bold even:text-sm">
                                         <td
-                                            class="w-1/3 px-2 py-2 bg-gray-100 border-x items-center justify-start flex">
+                                            class="w-2/5 px-2 py-2 bg-gray-100 border-x items-center justify-start flex">
                                             Limited Placement Assistance Provided
                                         </td>
-                                        <td class="flex bg-[#fbf4eb] items-center w-2/3 px-2 py-2 border-x">
+                                        <td class="flex bg-[#ffeede] items-start w-3/5 px-2 py-2 border-x">
                                             <span class="flex w-[10%] text-[#a91d54]">
-                                                <img width="50" height="50"
-                                                    src="https://cdn.itm.edu/assets/star_c49a956938.svg"
+                                                <img class="size-4" src="https://cdn.itm.edu/assets/star_c49a956938.svg"
                                                     alt="curriculum">
                                             </span> &nbsp;
                                             <span class="w-[90%] pl-1">
@@ -911,133 +860,129 @@
                                             </span>
                                         </td>
                                     </tr>
-                                    <tr class="flex border-y w-full  odd:text-sm odd:font-bold even:text-xs">
+                                    <tr class="flex border-y w-full  odd:text-sm odd:font-bold even:text-sm">
                                         <td colspan="2" class="w-full px-2 py-2 border-x text-[#a91d54]">Start-up
                                             Incubator
                                         </td>
                                     </tr>
-                                    <tr class="flex border-y w-full  odd:text-sm odd:font-bold even:text-xs">
+                                    <tr class="flex border-y w-full  odd:text-sm odd:font-bold even:text-sm">
                                         <td
-                                            class="w-1/3 px-2 py-2 bg-gray-100 border-x items-center justify-start flex">
+                                            class="w-2/5 px-2 py-2 bg-gray-100 border-x items-center justify-start flex">
                                             No Funding Support
                                         </td>
-                                        <td class="flex bg-[#fbf4eb] items-center w-2/3 px-2 py-2 border-x">
+                                        <td class="flex bg-[#ffeede] items-start w-3/5 px-2 py-2 border-x">
                                             <span class="w-[10%] text-[#a91d54]">
-                                                <img width="50" height="50"
-                                                    src="https://cdn.itm.edu/assets/star_c49a956938.svg" alt="coach-">
+                                                <img class="size-4" src="https://cdn.itm.edu/assets/star_c49a956938.svg"
+                                                    alt="coach-">
                                             </span>
                                             <span class="w-[90%] pl-1">
                                                 On-campus incubator with up to 1 cr seed fund and tech support
                                             </span>
                                         </td>
                                     </tr>
-                                    <tr class="flex border-y w-full  odd:text-sm odd:font-bold even:text-xs">
+                                    <tr class="flex border-y w-full  odd:text-sm odd:font-bold even:text-sm">
                                         <td colspan="2" class="w-full px-2 py-2 border-x text-[#a91d54]">Industry
                                             Certifications</td>
                                     </tr>
-                                    <tr class="flex border-y w-full  odd:text-sm odd:font-bold even:text-xs">
+                                    <tr class="flex border-y w-full  odd:text-sm odd:font-bold even:text-sm">
                                         <td
-                                            class="w-1/3 px-2 py-2 bg-gray-100 border-x items-center justify-start flex">
+                                            class="w-2/5 px-2 py-2 bg-gray-100 border-x items-center justify-start flex">
                                             Not included
                                         </td>
-                                        <td class="flex bg-[#fbf4eb] items-center w-2/3 px-2 py-2 border-x">
+                                        <td class="flex bg-[#ffeede] items-start w-3/5 px-2 py-2 border-x">
                                             <span class="w-[10%] text-[#a91d54]">
-                                                <img width="50" height="50"
-                                                    src="https://cdn.itm.edu/assets/star_c49a956938.svg"
+                                                <img class="size-4" src="https://cdn.itm.edu/assets/star_c49a956938.svg"
                                                     alt="internship">
                                             </span>
                                             <span class="w-[90%] pl-1">35+ Professional Certifications at no additional
                                                 cost</span>
                                         </td>
                                     </tr>
-                                    <tr class="flex border-y w-full  odd:text-sm odd:font-bold even:text-xs">
+                                    <tr class="flex border-y w-full  odd:text-sm odd:font-bold even:text-sm">
                                         <td colspan="2" class="w-full px-2 py-2 border-x text-[#a91d54]">Specializations
                                         </td>
                                     </tr>
-                                    <tr class="flex border-y w-full  odd:text-sm odd:font-bold even:text-xs">
+                                    <tr class="flex border-y w-full  odd:text-sm odd:font-bold even:text-sm">
                                         <td
-                                            class="w-1/3 px-2 py-2 bg-gray-100 border-x items-center justify-start flex">
+                                            class="w-2/5 px-2 py-2 bg-gray-100 border-x items-center justify-start flex">
                                             Only mainstream specialization options are available
                                         </td>
-                                        <td class="flex bg-[#fbf4eb] items-center w-2/3 px-2 py-2 border-x">
+                                        <td class="flex bg-[#ffeede] items-start w-3/5 px-2 py-2 border-x">
                                             <span class="w-[10%] text-[#a91d54]">
-                                                <img width="50" height="50"
-                                                    src="https://cdn.itm.edu/assets/star_c49a956938.svg"
+                                                <img class="size-4" src="https://cdn.itm.edu/assets/star_c49a956938.svg"
                                                     alt="course-assign">
                                             </span>
                                             <span class="w-[90%] pl-1">Offers 10 specializations, including new-age
                                                 ones</span>
                                         </td>
                                     </tr>
-                                    <tr class="flex border-y w-full  odd:text-sm odd:font-bold even:text-xs">
+                                    <tr class="flex border-y w-full  odd:text-sm odd:font-bold even:text-sm">
                                         <td colspan="2" class="w-full px-2 py-2 border-x text-[#a91d54]">Personal
                                             Professional Development</td>
                                     </tr>
-                                    <tr class="flex border-y w-full  odd:text-sm odd:font-bold even:text-xs">
+                                    <tr class="flex border-y w-full  odd:text-sm odd:font-bold even:text-sm">
                                         <td
-                                            class="w-1/3 px-2 py-2 bg-gray-100 border-x items-center justify-start flex">
+                                            class="w-2/5 px-2 py-2 bg-gray-100 border-x items-center justify-start flex">
                                             No Support Offered
                                         </td>
-                                        <td class="flex bg-[#fbf4eb] items-center w-2/3 px-2 py-2 border-x">
+                                        <td class="flex bg-[#ffeede] items-start w-3/5 px-2 py-2 border-x">
                                             <span class="w-[10%] text-[#a91d54]">
-                                                <img width="50" height="50"
-                                                    src="https://cdn.itm.edu/assets/star_c49a956938.svg" alt="star">
+                                                <img class="size-4" src="https://cdn.itm.edu/assets/star_c49a956938.svg"
+                                                    alt="star">
                                             </span>
                                             <span class="w-[90%] pl-1">Program integrated 300+ Hours of Soft Skills &
                                                 Placement Preparation</span>
                                         </td>
                                     </tr>
-                                    <tr class="flex border-y w-full  odd:text-sm odd:font-bold even:text-xs">
+                                    <tr class="flex border-y w-full  odd:text-sm odd:font-bold even:text-sm">
                                         <td colspan="2" class="w-full px-2 py-2 border-x text-[#a91d54]">Hands-on
                                             Learning
                                         </td>
                                     </tr>
-                                    <tr class="flex border-y w-full  odd:text-sm odd:font-bold even:text-xs">
+                                    <tr class="flex border-y w-full  odd:text-sm odd:font-bold even:text-sm">
                                         <td
-                                            class="w-1/3 px-2 py-2 bg-gray-100 border-x items-center justify-start flex">
+                                            class="w-2/5 px-2 py-2 bg-gray-100 border-x items-center justify-start flex">
                                             Textbook Learning
                                         </td>
-                                        <td class="flex bg-[#fbf4eb] items-center w-2/3 px-2 py-2 border-x">
+                                        <td class="flex bg-[#ffeede] items-start w-3/5 px-2 py-2 border-x">
                                             <span class="w-[10%] text-[#a91d54]">
-                                                <img width="50" height="50"
-                                                    src="https://cdn.itm.edu/assets/star_c49a956938.svg"
+                                                <img class="size-4" src="https://cdn.itm.edu/assets/star_c49a956938.svg"
                                                     alt="permanent-job">
                                             </span> &nbsp;
                                             <span class="w-[90%] pl-1">Case Studies, Live Projects, Simulations,
                                                 Industrial Visits, and conferences.</span>
                                         </td>
                                     </tr>
-                                    <tr class="flex border-y w-full  odd:text-sm odd:font-bold even:text-xs">
+                                    <tr class="flex border-y w-full  odd:text-sm odd:font-bold even:text-sm">
                                         <td colspan="2" class="w-full px-2 py-2 border-x text-[#a91d54]">Instructor</td>
                                     </tr>
-                                    <tr class="flex border-y w-full  odd:text-sm odd:font-bold even:text-xs">
+                                    <tr class="flex border-y w-full  odd:text-sm odd:font-bold even:text-sm">
                                         <td
-                                            class="w-1/3 px-2 py-2 bg-gray-100 border-x items-center justify-start flex">
+                                            class="w-2/5 px-2 py-2 bg-gray-100 border-x items-center justify-start flex">
                                             Less Industry Experience
                                         </td>
-                                        <td class="flex bg-[#fbf4eb] items-center w-2/3 px-2 py-2 border-x">
+                                        <td class="flex bg-[#ffeede] items-start w-3/5 px-2 py-2 border-x">
                                             <span class="w-[10%] text-[#a91d54]">
-                                                <img width="50" height="50"
-                                                    src="https://cdn.itm.edu/assets/star_c49a956938.svg" alt="training">
+                                                <img class="size-4" src="https://cdn.itm.edu/assets/star_c49a956938.svg"
+                                                    alt="training">
                                             </span> &nbsp;
                                             <span class="w-[90%] pl-1">
                                                 Top Professional Faculties with Industry Experience
                                             </span>
                                         </td>
                                     </tr>
-                                    <tr class="flex border-y w-full  odd:text-sm odd:font-bold even:text-xs">
+                                    <tr class="flex border-y w-full  odd:text-sm odd:font-bold even:text-sm">
                                         <td colspan="2" class="w-full px-2 py-2 border-x text-[#a91d54]">Curriculum
                                         </td>
                                     </tr>
-                                    <tr class="flex border-y w-full  odd:text-sm odd:font-bold even:text-xs">
+                                    <tr class="flex border-y w-full  odd:text-sm odd:font-bold even:text-sm">
                                         <td
-                                            class="w-1/3 px-2 py-2 bg-gray-100 border-x items-center justify-start flex">
+                                            class="w-2/5 px-2 py-2 bg-gray-100 border-x items-center justify-start flex">
                                             Outdated
                                         </td>
-                                        <td class="flex bg-[#fbf4eb] items-center w-2/3 px-2 py-2 border-x">
+                                        <td class="flex bg-[#ffeede] items-start w-3/5 px-2 py-2 border-x">
                                             <span class="w-[10%] text-[#a91d54]">
-                                                <img width="50" height="50"
-                                                    src="https://cdn.itm.edu/assets/star_c49a956938.svg"
+                                                <img class="size-4" src="https://cdn.itm.edu/assets/star_c49a956938.svg"
                                                     alt="global-finace">
                                             </span> &nbsp;
                                             <span class="w-[90%] pl-1">
@@ -1045,60 +990,59 @@
                                             </span>
                                         </td>
                                     </tr>
-                                    <tr class="flex border-y w-full  odd:text-sm odd:font-bold even:text-xs">
+                                    <tr class="flex border-y w-full  odd:text-sm odd:font-bold even:text-sm">
                                         <td colspan="2" class="w-full px-2 py-2 border-x text-[#a91d54]">
                                             Industry Connect
                                         </td>
                                     </tr>
-                                    <tr class="flex border-y w-full  odd:text-sm odd:font-bold even:text-xs">
+                                    <tr class="flex border-y w-full  odd:text-sm odd:font-bold even:text-sm">
                                         <td
-                                            class="w-1/3 px-2 py-2 bg-gray-100 border-x items-center justify-start flex">
+                                            class="w-2/5 px-2 py-2 bg-gray-100 border-x items-center justify-start flex">
                                             Limited
                                         </td>
-                                        <td class="flex bg-[#fbf4eb] items-center w-2/3 px-2 py-2 border-x">
+                                        <td class="flex bg-[#ffeede] items-start w-3/5 px-2 py-2 border-x">
                                             <span class="h-5 w-5 text-[#a91d54]">
-                                                <img width="50" height="50"
-                                                    src="https://cdn.itm.edu/assets/star_c49a956938.svg" alt="national">
+                                                <img class="size-4" src="https://cdn.itm.edu/assets/star_c49a956938.svg"
+                                                    alt="national">
                                             </span> &nbsp;
                                             <span class="w-[90%] pl-1">
                                                 1-1 Mentorship, Monthly CEO Talks, Meetups & More
                                             </span>
                                         </td>
                                     </tr>
-                                    <tr class="flex border-y w-full  odd:text-sm odd:font-bold even:text-xs">
+                                    <tr class="flex border-y w-full  odd:text-sm odd:font-bold even:text-sm">
                                         <td colspan="2" class="w-full px-2 py-2 border-x text-[#a91d54]">Global
                                             Immersion
                                         </td>
                                     </tr>
-                                    <tr class="flex border-y w-full  odd:text-sm odd:font-bold even:text-xs">
+                                    <tr class="flex border-y w-full  odd:text-sm odd:font-bold even:text-sm">
                                         <td
-                                            class="w-1/3 px-2 py-2 bg-gray-100 border-x items-center justify-start flex">
+                                            class="w-2/5 px-2 py-2 bg-gray-100 border-x items-center justify-start flex">
                                             -
                                         </td>
-                                        <td class="flex bg-[#fbf4eb] items-center w-2/3 px-2 py-2 border-x">
+                                        <td class="flex bg-[#ffeede] items-start w-3/5 px-2 py-2 border-x">
                                             <span class="w-[10%] text-[#a91d54]">
-                                                <img width="50" height="50"
-                                                    src="https://cdn.itm.edu/assets/star_c49a956938.svg"
+                                                <img class="size-4" src="https://cdn.itm.edu/assets/star_c49a956938.svg"
                                                     alt="consultation">
                                             </span> &nbsp;
                                             <span class="w-[90%] pl-1">Optional 4 Global Immersion Programs (UAE,
                                                 Singapore, Malaysia and Europe)</span>
                                         </td>
                                     </tr>
-                                    <tr class="flex border-y w-full  odd:text-sm odd:font-bold even:text-xs">
+                                    <tr class="flex border-y w-full  odd:text-sm odd:font-bold even:text-sm">
                                         <td colspan="2" class="w-full px-2 py-2 border-x text-[#a91d54]">
                                             Batch Size
                                         </td>
                                     </tr>
-                                    <tr class="flex border-y w-full  odd:text-sm odd:font-bold even:text-xs">
+                                    <tr class="flex border-y w-full  odd:text-sm odd:font-bold even:text-sm">
                                         <td
-                                            class="w-1/3 px-2 py-2 bg-gray-100 border-x items-center justify-start flex">
+                                            class="w-2/5 px-2 py-2 bg-gray-100 border-x items-center justify-start flex">
                                             100+ Students
                                         </td>
-                                        <td class="flex bg-[#fbf4eb] items-center w-2/3 px-2 py-2 border-x">
+                                        <td class="flex bg-[#ffeede] items-start w-3/5 px-2 py-2 border-x">
                                             <span class="w-[10%] text-[#a91d54]">
-                                                <img width="64" height="64"
-                                                    src="https://cdn.itm.edu/assets/star_c49a956938.svg" alt="star">
+                                                <img class="size-4" src="https://cdn.itm.edu/assets/star_c49a956938.svg"
+                                                    alt="star">
                                             </span>
                                             <span class="w-[90%] pl-1">Only 60 Students</span>
                                         </td>
@@ -1114,33 +1058,17 @@
                                 <table class="flex w-full flex-col">
                                     <thead>
                                         <tr class="flex w-fit mx-auto">
-                                            <td class="flex items-center justify-end">
-                                                <span class="flex w-52 px-5 py-2">
-
-                                                </span>
-
+                                            <td
+                                                class="flex border-x w-52 px-5 py-2 border-y border-gray-300 rounded-l-md text-base font-bold items-center justify-center text-white bg-black">
+                                                Features
                                             </td>
                                             <td
-                                                class="flex w-80 px-3 pt-3 pb-2 rounded-t-md text-base font-bold items-center justify-center text-[#a91d54]">
-                                            </td>
-                                            <td
-                                                class="flex border-x-4 border-x-[#a91d54] w-[450px] px-3 pt-3 pb-2 border-t-4 border-t-[#a91d54]  rounded-t-md text-base font-bold items-center justify-center text-[#a91d54] bg-[#a91d54]">
-                                            </td>
-                                        </tr>
-                                        <tr class="flex w-fit mx-auto">
-                                            <td class="flex items-center justify-end">
-                                                <span class="flex w-52 px-5 py-2">
-
-                                                </span>
-
-                                            </td>
-                                            <td
-                                                class="flex border-x w-80 px-3 pt-3 pb-2 border-y border-gray-300 rounded-t-md text-base font-bold items-center justify-center text-white bg-black">
+                                                class="flex border-x w-80 px-3 pt-3 pb-2 border-y border-gray-300 text-base font-bold items-center justify-center text-white bg-black">
                                                 Old-School MBA
                                             </td>
                                             <td
-                                                class="flex border-x-4 border-x-[#a91d54] w-[450px] px-3 pt-3 pb-2 border-gray-300 border-b text-xl font-bold items-center justify-center text-white bg-[#a91d54] shimmer-effect2">
-                                                MBA 𝒊Connect at ITM Business School
+                                                class="flex border-x-4 border-x-[#a91d54] w-[450px] px-3 pt-3 pb-2 border-gray-300 border-b text-xl font-bold items-center justify-center text-white bg-[#a91d54]">
+                                                MBA&nbsp;<i>𝒊Connect</i>&nbsp; at ITM Business School
                                             </td>
                                         </tr>
                                     </thead>
@@ -2166,7 +2094,7 @@
                     </div>
                     <div class="flex w-full justify-center">
                         <button onclick="openModal()"
-                            class="bg-[#a91d54] rounded-lg text-white px-5 py-2 w-full md:w-fit text-center items-center justify-center shimmer-effect1">Enquire
+                            class="bg-[#a91d54] rounded-lg text-white px-5 py-2 w-full md:w-fit text-center items-center justify-center ">Enquire
                             Now</button>
                     </div>
                 </div>
@@ -2208,7 +2136,7 @@
                         </div>
                         <div class="flex w-full">
                             <button onclick="openModal()"
-                                class="bg-[#ff9601] flex items-center justify-center rounded-lg text-white px-4 py-2 gap-2 transition-all shimmer-effect1">
+                                class="bg-[#ff9601] flex items-center justify-center rounded-lg text-white px-4 py-2 gap-2 transition-all ">
                                 Download Brochure
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                                     stroke-width="1.5" stroke="currentColor" class="size-4">
@@ -2508,7 +2436,7 @@
 
                                     <div class="flex items-center justify-center">
                                         <button onclick="openModal()"
-                                            class="flex items-center justify-center gap-2 mt-4 bg-[#a91d54] text-white px-5 py-3 rounded-lg shimmer-effect1">
+                                            class="flex items-center justify-center gap-2 mt-4 bg-[#a91d54] text-white px-5 py-3 rounded-lg ">
                                             Download Brochure
                                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                                                 stroke-width="1.5" stroke="currentColor" class="size-5">
@@ -2755,7 +2683,7 @@
 
                                     <div class="flex items-center justify-center">
                                         <button onclick="openModal()"
-                                            class="flex items-center justify-center gap-2 mt-4 bg-[#a91d54] text-white px-5 py-3 rounded-lg shimmer-effect1">
+                                            class="flex items-center justify-center gap-2 mt-4 bg-[#a91d54] text-white px-5 py-3 rounded-lg ">
                                             Download Brochure
                                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                                                 stroke-width="1.5" stroke="currentColor" class="size-5">
@@ -3038,7 +2966,7 @@
 
                                     <div class="flex items-center justify-center">
                                         <button onclick="openModal()"
-                                            class="flex items-center justify-center gap-2 mt-4 bg-[#a91d54] text-white px-5 py-3 rounded-lg shimmer-effect1">
+                                            class="flex items-center justify-center gap-2 mt-4 bg-[#a91d54] text-white px-5 py-3 rounded-lg ">
                                             Download Brochure
                                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                                                 stroke-width="1.5" stroke="currentColor" class="size-5">
@@ -3279,7 +3207,7 @@
 
                                     <div class="flex items-center justify-center">
                                         <button onclick="openModal()"
-                                            class="flex items-center justify-center gap-2 mt-4 bg-[#a91d54] text-white px-5 py-3 rounded-lg shimmer-effect1">
+                                            class="flex items-center justify-center gap-2 mt-4 bg-[#a91d54] text-white px-5 py-3 rounded-lg ">
                                             Download Brochure
                                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                                                 stroke-width="1.5" stroke="currentColor" class="size-5">
@@ -3509,7 +3437,7 @@
 
                                     <div class="flex items-center justify-center">
                                         <button onclick="openModal()"
-                                            class="flex items-center justify-center gap-2 mt-4 bg-[#a91d54] text-white px-5 py-3 rounded-lg shimmer-effect1">
+                                            class="flex items-center justify-center gap-2 mt-4 bg-[#a91d54] text-white px-5 py-3 rounded-lg ">
                                             Download Brochure
                                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                                                 stroke-width="1.5" stroke="currentColor" class="size-5">
@@ -3699,7 +3627,7 @@
 
                                     <div class="flex items-center justify-center">
                                         <button onclick="openModal()"
-                                            class="flex items-center justify-center gap-2 mt-4 bg-[#a91d54] text-white px-5 py-3 rounded-lg shimmer-effect1">
+                                            class="flex items-center justify-center gap-2 mt-4 bg-[#a91d54] text-white px-5 py-3 rounded-lg ">
                                             Download Brochure
                                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                                                 stroke-width="1.5" stroke="currentColor" class="size-5">
@@ -3715,8 +3643,7 @@
                             <div class="accordion-item mb-3">
                                 <button
                                     class="accordion-button flex justify-between items-center w-full bg-white border border-gray-300 text-black p-3 rounded-md">
-                                    <span
-                                        class="font-inter text-base text-left font-semibold uppercase shimmer-effect1">
+                                    <span class="font-inter text-base text-left font-semibold uppercase ">
                                         2. International Business
                                     </span>
                                     <span class="accordion-icon">+</span>
@@ -3885,7 +3812,7 @@
 
                                     <div class="flex items-center justify-center">
                                         <button onclick="openModal()"
-                                            class="flex items-center justify-center gap-2 mt-4 bg-[#a91d54] text-white px-5 py-3 rounded-lg shimmer-effect1">
+                                            class="flex items-center justify-center gap-2 mt-4 bg-[#a91d54] text-white px-5 py-3 rounded-lg ">
                                             Download Brochure
                                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                                                 stroke-width="1.5" stroke="currentColor" class="size-5">
@@ -4125,7 +4052,7 @@
 
                                     <div class="flex items-center justify-center">
                                         <button onclick="openModal()"
-                                            class="flex items-center justify-center gap-2 mt-4 bg-[#a91d54] text-white px-5 py-3 rounded-lg shimmer-effect1">
+                                            class="flex items-center justify-center gap-2 mt-4 bg-[#a91d54] text-white px-5 py-3 rounded-lg ">
                                             Download Brochure
                                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                                                 stroke-width="1.5" stroke="currentColor" class="size-5">
@@ -4309,7 +4236,7 @@
 
                                     <div class="flex items-center justify-center">
                                         <button onclick="openModal()"
-                                            class="flex items-center justify-center gap-2 mt-4 bg-[#a91d54] text-white px-5 py-3 rounded-lg shimmer-effect1">
+                                            class="flex items-center justify-center gap-2 mt-4 bg-[#a91d54] text-white px-5 py-3 rounded-lg ">
                                             Download Brochure
                                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                                                 stroke-width="1.5" stroke="currentColor" class="size-5">
@@ -4508,7 +4435,7 @@
 
                                     <div class="flex items-center justify-center">
                                         <button onclick="openModal()"
-                                            class="flex items-center justify-center gap-2 mt-4 bg-[#a91d54] text-white px-5 py-3 rounded-lg shimmer-effect1">
+                                            class="flex items-center justify-center gap-2 mt-4 bg-[#a91d54] text-white px-5 py-3 rounded-lg ">
                                             Download Brochure
                                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                                                 stroke-width="1.5" stroke="currentColor" class="size-5">
@@ -5133,7 +5060,9 @@
                             </button>
                             <div class="accordion-content border border-t-0 border-gray-200 bg-white p-4 hidden">
                                 <p class="text-sm md:text-base mb-4">
-                                    To apply for the MBA 𝒊Connect program, candidates need a bachelor’s degree from any
+                                    To apply for the MBA&nbsp;<i>𝒊Connect</i>&nbsp; program, candidates need a
+                                    bachelor’s
+                                    degree from any
                                     UGC-recognized University and at
                                     least 50% marks in the qualifying examination (Graduation). Final-year students are
                                     also eligible to apply.
@@ -5168,7 +5097,8 @@
                                         academic, social,
                                         cultural, or personal achievements and whose financial circumstances are
                                         insufficient to cover
-                                        the costs of the MBA 𝒊Connect program. These scholarships may include full or
+                                        the costs of the MBA&nbsp;<i>𝒊Connect</i>&nbsp; program. These scholarships may
+                                        include full or
                                         partial
                                         waivers of academic
                                         fees and other expenses, decided solely by the Scholarship Committee.</p>
@@ -5201,21 +5131,29 @@
                                         <p class="flex items-center"><span
                                                 class="w-3 h-3 bg-[#a91d54] rounded-full mr-2"></span>
                                             100%
-                                            Tuition Fee scholarship for ITM MBA 𝒊Connect (10 Scholarships)</p>
+                                            Tuition Fee scholarship for ITM MBA&nbsp;<i>𝒊Connect</i>&nbsp; (10
+                                            Scholarships)
+                                        </p>
                                         <p class="flex items-center"><span
                                                 class="w-3 h-3 bg-[#a91d54] rounded-full mr-2"></span>
                                             25%
-                                            Tuition Fee scholarship for ITM MBA 𝒊Connect (30 Scholarships)</p>
+                                            Tuition Fee scholarship for ITM MBA&nbsp;<i>𝒊Connect</i>&nbsp; (30
+                                            Scholarships)
+                                        </p>
                                     </div>
                                     <div>
                                         <p class="flex items-center"><span
                                                 class="w-3 h-3 bg-[#a91d54] rounded-full mr-2"></span>
                                             50%
-                                            Tuition Fee scholarship for ITM MBA 𝒊Connect (15 Scholarships)</p>
+                                            Tuition Fee scholarship for ITM MBA&nbsp;<i>𝒊Connect</i>&nbsp; (15
+                                            Scholarships)
+                                        </p>
                                         <p class="flex items-center"><span
                                                 class="w-3 h-3 bg-[#a91d54] rounded-full mr-2"></span>
                                             10%
-                                            Tuition Fee scholarship for ITM MBA 𝒊Connect (100 Scholarships)</p>
+                                            Tuition Fee scholarship for ITM MBA&nbsp;<i>𝒊Connect</i>&nbsp; (100
+                                            Scholarships)
+                                        </p>
                                     </div>
                                 </div>
                                 <p class="text-center font-semibold mb-8">Note: Scholarships awarded are applicable only
@@ -5605,7 +5543,9 @@
                                 year 2023, we further expanded our
                                 educational reach with the launch of ITM Skills University, a UGC-approved private state
                                 skills university. In 2024, our
-                                popular ITM PGDM 𝒊Connect transitioned into an MBA 𝒊Connect program under ITM Skills
+                                popular ITM PGDM&nbsp;<i>𝒊Connect</i>&nbsp; transitioned into an
+                                MBA&nbsp;<i>𝒊Connect</i>&nbsp;
+                                program under ITM Skills
                                 University, reflecting our
                                 commitment to innovation and industry alignment.
                             </p>
@@ -5778,7 +5718,7 @@
 
                             <div class="flex w-full">
                                 <button type="submit"
-                                    class="flex w-full items-center justify-center rounded-md bg-[#A91D54] hover:bg-black transition-all py-3 text-center text-base text-white  shimmer-effect1">Submit</button>
+                                    class="flex w-full items-center justify-center rounded-md bg-[#A91D54] hover:bg-black transition-all py-3 text-center text-base text-white  ">Submit</button>
                             </div>
                         </form>
                     </div>

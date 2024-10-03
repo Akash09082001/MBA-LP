@@ -66,13 +66,13 @@ rankingCards.innerHTML = ranking;
 
 function showRankingData(rankingData) {
     let rankingCard = `
-         <div class="flex w-64 rounded-r-lg group transition-all rounded-b-lg bg-white flex-col shadow-md ">
+         <div class="flex w-64 rounded-r-3xl group transition-all rounded-b-lg bg-white flex-col shadow-md">
             <div
-                class="flex w-full px-4 py-2 rounded-r-lg rounded-b-lg group-hover:bg-[#a91d54] group-hover:text-white transition-all bg-[#feefdf]">
-                <span class="text-xl md:text-2xl font-bold">${rankingData.heading}</span>
+                class="flex w-full px-6 py-4 rounded-r-3xl rounded-b-3xl group-hover:bg-[#a91d54] group-hover:text-white transition-all bg-[#feefdf]">
+                <span class="text-lg md:text-xl font-normal">${rankingData.heading}</span>
             </div>
-            <div class="flex w-full px-4 py-4">
-                <p class="text-sm md:text-base">
+            <div class="flex w-full p-6">
+                <p class="text-sm">
                     ${rankingData.paragraph}
                 </p>
             </div>
