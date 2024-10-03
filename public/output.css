@@ -943,6 +943,10 @@ video {
   width: 500px;
 }
 
+.w-\[550px\]{
+  width: 550px;
+}
+
 .min-w-\[1280px\]{
   min-width: 1280px;
 }
@@ -1257,6 +1261,10 @@ video {
 
 .border-t-4{
   border-top-width: 4px;
+}
+
+.border-l{
+  border-left-width: 1px;
 }
 
 .border-none{
