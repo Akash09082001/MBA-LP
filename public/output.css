@@ -1410,6 +1410,20 @@ video {
   background-color: transparent;
 }
 
+.bg-\[\]{
+  background-color: ;
+}
+
+.bg-\[\#fece53\]{
+  --tw-bg-opacity: 1;
+  background-color: rgb(254 206 83 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#f9e8d8\]{
+  --tw-bg-opacity: 1;
+  background-color: rgb(249 232 216 / var(--tw-bg-opacity));
+}
+
 .bg-opacity-50{
   --tw-bg-opacity: 0.5;
 }
@@ -1512,6 +1526,10 @@ video {
 
 .bg-top{
   background-position: top;
+}
+
+.bg-\[left_15\%_center\]{
+  background-position: left 15% center;
 }
 
 .bg-no-repeat{
@@ -1657,6 +1675,10 @@ video {
 
 .pt-10{
   padding-top: 2.5rem;
+}
+
+.pl-2{
+  padding-left: 0.5rem;
 }
 
 .text-left{
@@ -2311,6 +2333,10 @@ input[type=number] {
 
   .md\:bg-none{
     background-image: none;
+  }
+
+  .md\:bg-\[url\(\'https\:\/\/cdn\.itm\.edu\/assets\/hero_img1_d111e543ef\.webp\'\)\]{
+    background-image: url('https://cdn.itm.edu/assets/hero_img1_d111e543ef.webp');
   }
 
   .md\:bg-cover{
