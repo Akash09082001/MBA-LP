@@ -1430,6 +1430,10 @@ video {
   background-color: rgb(249 232 216 / var(--tw-bg-opacity));
 }
 
+.bg-primary-50\/50{
+  background-color: rgb(251 229 238 / 0.5);
+}
+
 .bg-opacity-50{
   --tw-bg-opacity: 0.5;
 }
