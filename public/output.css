@@ -826,6 +826,10 @@ video {
   height: 100vh;
 }
 
+.h-2{
+  height: 0.5rem;
+}
+
 .max-h-14{
   max-height: 3.5rem;
 }
@@ -945,6 +949,10 @@ video {
 
 .w-\[550px\]{
   width: 550px;
+}
+
+.w-2{
+  width: 0.5rem;
 }
 
 .min-w-\[1280px\]{
@@ -1461,6 +1469,10 @@ video {
 .bg-\[\#333333\]{
   --tw-bg-opacity: 1;
   background-color: rgb(51 51 51 / var(--tw-bg-opacity));
+}
+
+.bg-\[333333\]{
+  background-color: 333333;
 }
 
 .bg-opacity-50{
