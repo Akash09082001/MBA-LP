@@ -74,16 +74,16 @@ const jobData = [
     company: "Pricewaterhouse Coopers India",
     image: "https://cdn.itm.edu/assets/nasrin_e2811f004d.webp",
   },
-  // {
-  //   name: "Shreyansh S.",
-  //   company: "Pricewaterhouse Coopers India",
-  //   image: "https://cdn.itm.edu/assets/shreyansh_17951cac69.webp",
-  // },
-  // {
-  //   name: "Kshitij N.",
-  //   company: "Pricewaterhouse Coopers India",
-  //   image: "https://cdn.itm.edu/assets/kshitij_9b1b563142.webp",
-  // },
+  {
+    name: "Shreyansh S.",
+    company: "Pricewaterhouse Coopers India",
+    image: "https://cdn.itm.edu/assets/shreyansh_17951cac69.webp",
+  },
+  {
+    name: "Kshitij N.",
+    company: "Pricewaterhouse Coopers India",
+    image: "https://cdn.itm.edu/assets/kshitij_9b1b563142.webp",
+  },
 ];
 
 let job = jobData.map(showData).join("");
@@ -91,11 +91,16 @@ let jobCards = document.getElementById("job-data");
 jobCards.innerHTML = job;
 function showData(jobData) {
   let listCard = `
-        <div class="bg-white p-4 rounded-lg flex flex-col items-center w-40 md:w-full">
-            <img src=${jobData.image} alt="Arti Shrotriya" class="w-20 h-20 rounded-full mb-2">
-            <h3 class="font-semibold text-[#a91d54]">${jobData.name}</h3>
-            <p class="text-sm text-center">${jobData.company}</p>
-        </div>                    
+         <div
+            class="bg-white p-4 rounded-lg gap-2 grid grid-cols-3 items-center w-60 md:w-full max-w-[18%]">
+            <div class="flex w-full">
+              <img src=${jobData.image} alt="Arti Shrotriya" class="w-14 h-14 rounded-full">
+            </div>
+            <div class="flex w-full col-span-2 flex-col items-start justify-center">
+              <h3 class="font-semibold text-sm text-[#a91d54]">${jobData.name}</h3>
+              <p class="text-sm text-left">${jobData.company}</p>
+            </div>
+        </div>                 
     `;
   return listCard;
 }

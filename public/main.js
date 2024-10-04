@@ -14,6 +14,11 @@ closeButton.addEventListener("click", () => {
   closeButton.style.display = "none";
 });
 
+function closeMenu() {
+  mobileMenu.style.display = "none";
+  openButton.style.display = "block";
+  closeButton.style.display = "none";
+}
 
 function openModal() {
   const modal = document.getElementById('modal');
