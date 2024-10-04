@@ -1744,6 +1744,10 @@ video {
   padding-bottom: 2.5rem;
 }
 
+.pt-8{
+  padding-top: 2rem;
+}
+
 .text-left{
   text-align: left;
 }
@@ -2548,6 +2552,10 @@ input[type=number] {
 
   .md\:pb-10{
     padding-bottom: 2.5rem;
+  }
+
+  .md\:pt-10{
+    padding-top: 2.5rem;
   }
 
   .md\:text-center{
