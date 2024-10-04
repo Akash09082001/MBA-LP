@@ -830,6 +830,10 @@ video {
   height: 0.5rem;
 }
 
+.h-1{
+  height: 0.25rem;
+}
+
 .max-h-14{
   max-height: 3.5rem;
 }
@@ -953,6 +957,10 @@ video {
 
 .w-2{
   width: 0.5rem;
+}
+
+.w-1{
+  width: 0.25rem;
 }
 
 .min-w-\[1280px\]{
